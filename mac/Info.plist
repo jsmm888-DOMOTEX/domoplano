@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key><string>Domoplano</string>
+	<key>CFBundleDisplayName</key><string>Domoplano</string>
+	<key>CFBundleIdentifier</key><string>com.sebastianmunoz.domoplano</string>
+	<key>CFBundleExecutable</key><string>Domoplano</string>
+	<key>CFBundleIconFile</key><string>AppIcon</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>1.0</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>CFBundleDevelopmentRegion</key><string>es</string>
+	<key>LSMinimumSystemVersion</key><string>13.0</string>
+	<key>LSApplicationCategoryType</key><string>public.app-category.graphics-design</string>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSHumanReadableCopyright</key><string>Domoplano — programa de diseño de DOMOTEX</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key><string>Plano DXF</string>
+			<key>CFBundleTypeRole</key><string>Editor</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>CFBundleTypeIconFile</key><string>AppIcon</string>
+			<key>CFBundleTypeExtensions</key><array><string>dxf</string></array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>Plano DWF</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>CFBundleTypeIconFile</key><string>AppIcon</string>
+			<key>LSItemContentTypes</key><array><string>com.autodesk.dwf</string></array>
+			<key>CFBundleTypeExtensions</key><array><string>dwf</string></array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>Plano DWFx</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>CFBundleTypeIconFile</key><string>AppIcon</string>
+			<key>LSItemContentTypes</key><array><string>com.autodesk.dwfx</string></array>
+			<key>CFBundleTypeExtensions</key><array><string>dwfx</string></array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key><string>Plano DWG (se abre convertido a DXF con LibreDWG)</string>
+			<key>CFBundleTypeRole</key><string>Viewer</string>
+			<key>LSHandlerRank</key><string>Alternate</string>
+			<key>CFBundleTypeIconFile</key><string>AppIcon</string>
+			<key>LSItemContentTypes</key><array><string>com.autodesk.dwg</string></array>
+			<key>CFBundleTypeExtensions</key><array><string>dwg</string></array>
+		</dict>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key><string>com.autodesk.dwf</string>
+			<key>UTTypeDescription</key><string>Plano DWF de Autodesk</string>
+			<key>UTTypeConformsTo</key><array><string>public.data</string><string>public.content</string></array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key><array><string>dwf</string></array>
+				<key>public.mime-type</key><array><string>model/vnd.dwf</string></array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeIdentifier</key><string>com.autodesk.dwfx</string>
+			<key>UTTypeDescription</key><string>Plano DWFx de Autodesk</string>
+			<key>UTTypeConformsTo</key><array><string>public.data</string><string>public.content</string></array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key><array><string>dwfx</string></array>
+				<key>public.mime-type</key><array><string>model/vnd.dwfx+xps</string></array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

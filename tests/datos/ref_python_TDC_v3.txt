@@ -1,0 +1,9 @@
+archivo: /Users/sebastianmunoz/Documents/Programas/Domoplano/tests/datos/TDC_v3.dxf
+presentacion: PLANO 01 DE 01
+entidades: 1412 {'ARC': 8, 'CIRCLE': 132, 'HATCH': 151, 'LWPOLYLINE': 622, 'TEXT': 498, 'VIEWPORT': 1}
+capas usadas: {'VIEWPORTS': 1, '0': 1411}
+capas definidas: ['0', 'Defpoints']
+raster/OLE: 0
+textos: 498 | altura minima: 2.0 mm | < 2,0 mm: 0 | < 2,5 mm: 400
+llamadas revisadas: 48
+COLISIONES: 0

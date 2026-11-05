@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Domoplano — comparar DXF y DWF</title>
+<style>
+  body { font: 13px -apple-system, sans-serif; margin: 12px; background: #eee; }
+  canvas { background: #fff; border: 1px solid #999; max-width: 100%; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; } .row > div { flex: 1 1 30%; min-width: 300px; }
+  pre { background: #fff; padding: 8px; }
+</style></head><body>
+<h3>Comparación de render: DXF (motor de Domoplano) contra el DWF escrito por Domoplano</h3>
+<pre id="out">Cargando…</pre>
+<div class="row"><div><b>DXF</b><br><canvas id="a"></canvas></div><div><b>DWF</b><br><canvas id="b"></canvas></div>
+<div><b>Diferencias</b> (rojo = solo en DXF, azul = solo en DWF, gris = en ambos)<br><canvas id="d"></canvas></div></div>
+<script src="../web/zip.js?v=3"></script>
+<script src="../web/scene.js?v=3"></script>
+<script src="../web/aci.js?v=3"></script>
+<script src="../web/dxf.js?v=3"></script>
+<script src="../web/edit.js?v=3"></script>
+<script src="../web/w2d.js?v=3"></script>
+<script src="../web/dwf.js?v=3"></script>
+<script src="../web/dwf_writer.js?v=3"></script>
+<script>
+// Uso: comparar.html?dxf=<url>&dwf=<url>[&plancha=NOMBRE][&px=2]
+// Si no se da dwf, el DWF se escribe aquí mismo con DWFWriter (prueba del camino de la app).
+(async () => {
+  const q = new URLSearchParams(location.search);
+  const px = parseFloat(q.get('px') || '2');
+  const out = document.getElementById('out');
+  try {
+    const dxfBytes = new Uint8Array(await (await fetch(q.get('dxf'))).arrayBuffer());
+    const d1 = await DXF.open(dxfBytes, { resolveURL: (f) => new URL(encodeURIComponent(String(f).split(/[\\/]/).pop()), new URL(q.get('dxf'), location.href)).href });
+    const papers = d1.pages.filter((p) => p.title !== 'Modelo');
+    const pa = q.get('plancha') ? papers.find((p) => p.title === q.get('plancha')) : papers[0];
+    const ra = await pa.build();
+    let dwfBytes;
+    if (q.get('dwf')) dwfBytes = new Uint8Array(await (await fetch(q.get('dwf'))).arrayBuffer());
+    else dwfBytes = (await DWFWriter.fromDXF(dxfBytes, { plancha: pa.title, resolveURL: (f) => new URL(encodeURIComponent(String(f).split(/[\\/]/).pop()), new URL(q.get('dxf'), location.href)).href })).bytes;
+    const d2 = await DWF.open(dwfBytes);
+    const pb = d2.pages[0];
+    const rb = await pb.build.call(pb);
+    const draw = (id, page, root) => {
+      const c = document.getElementById(id);
+      c.width = Math.round(page.width * (page.unitMM || 1) * px); c.height = Math.round(page.height * (page.unitMM || 1) * px);
+      const ctx = c.getContext('2d');
+      ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+      const s = px * (page.unitMM || 1);
+      ctx.setTransform(s, 0, 0, s, 0, 0);
+      Scene.render(ctx, root, [0, 0, page.width, page.height], s);
+      return ctx.getImageData(0, 0, c.width, c.height);
+    };
+    const A = draw('a', pa, ra), B = draw('b', pb, rb);
+    const W = Math.min(A.width, B.width), H = Math.min(A.height, B.height);
+    const ink = (I, x, y) => { const i = (y * I.width + x) * 4; return I.data[i] < 200 || I.data[i + 1] < 200 || I.data[i + 2] < 200; };
+    const inkA = new Uint8Array(W * H), inkB = new Uint8Array(W * H);
+    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) { inkA[y * W + x] = ink(A, x, y); inkB[y * W + x] = ink(B, x, y); }
+    const near = (M, x, y, r) => { for (let j = Math.max(0, y - r); j <= Math.min(H - 1, y + r); j++) for (let i = Math.max(0, x - r); i <= Math.min(W - 1, x + r); i++) if (M[j * W + i]) return true; return false; };
+    const R = Math.max(1, Math.round(px)); // tolerancia ≈ 0,5 mm
+    let nA = 0, okA = 0, nB = 0, okB = 0;
+    const dc = document.getElementById('d'); dc.width = W; dc.height = H;
+    const dctx = dc.getContext('2d'); const D = dctx.createImageData(W, H);
+    for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+      const k = y * W + x, a = inkA[k], b = inkB[k];
+      let c = [255, 255, 255];
+      if (a) { nA++; if (near(inkB, x, y, R)) okA++; else c = [230, 0, 0]; }
+      if (b) { nB++; if (near(inkA, x, y, R)) okB++; else c = [0, 60, 230]; }
+      if (a && b) c = [150, 150, 150];
+      D.data.set([...c, 255], k * 4);
+    }
+    dctx.putImageData(D, 0, 0);
+    const res = { plancha: pa.title, papelDXF_mm: [pa.width * (pa.unitMM || 1), pa.height * (pa.unitMM || 1)], papelDWF_mm: [pb.width, pb.height], dwfKB: +(dwfBytes.length / 1024).toFixed(1),
+      tintaDXF: nA, tintaDWF: nB, dxfCubiertoPorDWF: +(okA / nA * 100).toFixed(2), dwfCubiertoPorDXF: +(okB / nB * 100).toFixed(2), avisosDWF: rb.stats.warnings };
+    window.result = res;
+    out.textContent = JSON.stringify(res, null, 1);
+  } catch (e) { out.textContent = 'ERROR: ' + (e && e.stack || e); window.result = { error: String(e) }; }
+})();
+</script>
+</body></html>

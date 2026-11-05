@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Domoplano — render de una plancha DXF a PNG</title></head><body>
+<!-- Uso (lo llama tests/pdftest.js con Chrome sin ventana): render_dxf.html?dxf=<url>&plancha=NOMBRE&px=4[&post=<url>]
+     Dibuja la plancha con el MISMO motor de la app (Scene.render) y deja el PNG en #png (data URL). -->
+<pre id="png">cargando</pre>
+<script src="../web/scene.js"></script>
+<script src="../web/aci.js"></script>
+<script src="../web/edit.js"></script>
+<script src="../web/dxf.js"></script>
+<script>
+(async () => {
+  const out = document.getElementById('png');
+  try {
+    const q = new URLSearchParams(location.search);
+    const px = parseFloat(q.get('px') || '4');
+    const url = q.get('dxf');
+    const bytes = new Uint8Array(await (await fetch(url)).arrayBuffer());
+    const doc = await DXF.open(bytes, { resolveURL: (f) => new URL(encodeURIComponent(String(f).split(/[\\/]/).pop()), new URL(url, location.href)).href });
+    const papers = doc.pages.filter((p) => p.title !== 'Modelo');
+    const pa = q.get('plancha') ? papers.find((p) => p.title === q.get('plancha')) : papers[0];
+    const root = await pa.build();
+    const c = document.createElement('canvas');
+    const u = pa.unitMM || 1;
+    c.width = Math.round(pa.width * u * px); c.height = Math.round(pa.height * u * px);
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+    ctx.setTransform(px * u, 0, 0, px * u, 0, 0);
+    Scene.render(ctx, root, [0, 0, pa.width, pa.height], px * u);
+    const data = c.toDataURL('image/png');
+    if (q.get('post')) await fetch(q.get('post'), { method: 'POST', body: data });
+    out.textContent = data;
+  } catch (e) { out.textContent = 'ERROR ' + (e && e.stack || e); const q = new URLSearchParams(location.search); if (q.get('post')) fetch(q.get('post'), { method: 'POST', body: out.textContent }); }
+})();
+</script>
+</body></html>

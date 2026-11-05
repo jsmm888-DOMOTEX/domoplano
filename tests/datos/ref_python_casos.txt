@@ -1,0 +1,18 @@
+archivo: /Users/sebastianmunoz/Documents/Programas/Domoplano/tests/datos/verif_casos.dxf
+presentacion: CASOS
+entidades: 23 {'CIRCLE': 4, 'HATCH': 1, 'INSERT': 1, 'LINE': 2, 'LWPOLYLINE': 3, 'TEXT': 11, 'VIEWPORT': 1}
+capas usadas: {'VIEWPORTS': 1, '0': 22}
+capas definidas: ['0', 'Defpoints']
+raster/OLE: 0
+textos: 11 | altura minima: 1.5 mm | < 2,0 mm: 1 | < 2,5 mm: 2
+llamadas revisadas: 2
+COLISIONES: 9
+  TEXTO-TEXTO | PRIMER TEXTO MONTADO | SEGUNDO TEXTO | 100.0 | 599.9
+  TEXTO-TRAZO | TEXTO CRUZADO POR LINEA | trazo (305.0,590.0)-(305.0,610.0) g=0.25 | 300.0 | 599.9
+  TEXTO-TRAZO | TEXTO SOBRE RELLENO | trazo (520.0,598.0)-(520.0,605.0) g=0.10 | 500.0 | 599.9
+  TEXTO-RELLENO | TEXTO SOBRE RELLENO | achurado/solido | 500.0 | 599.9
+  TEXTO-BORDE DE HOJA | TEXTO FUERA DE LA HOJA |  | 700.0 | 837.9
+  TEXTO-TRAZO | TEXTO GIRADO | trazo (590.0,405.0)-(610.0,405.0) g=0.25 | 600.1 | 400.0
+  TEXTO-TRAZO | CENTRADO | trazo (803.0,400.0)-(802.9,400.6) g=0.25 | 790.5 | 398.6
+  TEXTO-TRAZO | POSTE | trazo (902.0,600.0)-(902.0,600.4) g=0.25 | 899.0 | 598.9
+  LLAMADA-CRUZA | llamada (130.0,450.0)->(170.0,450.0) | trazo (152.0,450.0)-(152.0,450.4) | 130.0 | 450.0

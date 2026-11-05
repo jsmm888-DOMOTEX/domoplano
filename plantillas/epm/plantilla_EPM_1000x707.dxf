@@ -1,0 +1,14740 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1024
+  9
+$ACADMAINTVER
+ 70
+6
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+-200.0
+ 20
+-150.0
+ 30
+0.0
+  9
+$EXTMAX
+ 10
+200.0
+ 20
+150.0
+ 30
+0.0
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+1000.0
+ 20
+707.0
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$ATTMODE
+ 70
+1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DIMSTYLE
+  2
+Standard
+  9
+$LUNITS
+ 70
+2
+  9
+$LUPREC
+ 70
+4
+  9
+$AUNITS
+ 70
+0
+  9
+$AUPREC
+ 70
+2
+  9
+$MIRRTEXT
+ 70
+0
+  9
+$TILEMODE
+ 70
+0
+  9
+$PSLTSCALE
+ 70
+1
+  9
+$MEASUREMENT
+ 70
+1
+  9
+$CELWEIGHT
+370
+-1
+  9
+$LWDISPLAY
+290
+1
+  9
+$INSUNITS
+ 70
+4
+  9
+$PSTYLEMODE
+290
+1
+  9
+$HANDSEED
+  5
+21A
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBPLACEHOLDER
+  2
+AcDbPlaceHolder
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+LAYOUT
+  2
+AcDbLayout
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+20
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+VPORT
+  5
+8F
+330
+20
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+10.0
+ 24
+10.0
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 40
+330.0
+ 41
+1.5
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+0
+ 72
+1000
+ 73
+1
+ 74
+3
+ 75
+0
+ 76
+0
+ 77
+0
+ 78
+0
+281
+0
+ 65
+1
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+21
+330
+0
+100
+AcDbSymbolTable
+ 70
+6
+  0
+LTYPE
+  5
+90
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+91
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+92
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+0
+  3
+Solid line
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+93
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+EPM_TRAZOS
+ 70
+0
+  3
+Trazos __ __ __ (proyectado)
+ 72
+65
+ 73
+2
+ 40
+4.5
+ 49
+3.0
+ 74
+0
+ 49
+-1.5
+ 74
+0
+  0
+LTYPE
+  5
+94
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+EPM_TRAZO_PUNTO
+ 70
+0
+  3
+Trazo y punto __ . __ .
+ 72
+65
+ 73
+4
+ 40
+6.6
+ 49
+5.0
+ 74
+0
+ 49
+-0.8
+ 74
+0
+ 49
+0.0
+ 74
+0
+ 49
+-0.8
+ 74
+0
+  0
+LTYPE
+  5
+95
+330
+21
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+EPM_TRAZO_2PUNTOS
+ 70
+0
+  3
+Trazo y dos puntos __ .. __ ..
+ 72
+65
+ 73
+6
+ 40
+7.4
+ 49
+5.0
+ 74
+0
+ 49
+-0.8
+ 74
+0
+ 49
+0.0
+ 74
+0
+ 49
+-0.8
+ 74
+0
+ 49
+0.0
+ 74
+0
+ 49
+-0.8
+ 74
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+22
+330
+0
+100
+AcDbSymbolTable
+ 70
+19
+  0
+LAYER
+  5
+96
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+2F
+  0
+LAYER
+  5
+97
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Defpoints
+ 70
+0
+ 62
+7
+  6
+Continuous
+290
+0
+370
+-3
+390
+2F
+  0
+LAYER
+  5
+98
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-MARCO
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+50
+390
+2F
+  0
+LAYER
+  5
+99
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-ROTULO
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+35
+390
+2F
+  0
+LAYER
+  5
+9A
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-TEXTO
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+18
+390
+2F
+  0
+LAYER
+  5
+9B
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-ESPACIOS
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+35
+390
+2F
+  0
+LAYER
+  5
+9C
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-CONVENCIONES
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+25
+390
+2F
+  0
+LAYER
+  5
+9D
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-TABLAS
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+18
+390
+2F
+  0
+LAYER
+  5
+9E
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+EPM-FIRMA
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+18
+390
+2F
+  0
+LAYER
+  5
+9F
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RED-MT-PROY
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+35
+390
+2F
+  0
+LAYER
+  5
+A0
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RED-MT-EXIST
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+25
+390
+2F
+  0
+LAYER
+  5
+A1
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RED-BT-PROY
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+35
+390
+2F
+  0
+LAYER
+  5
+A2
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+RED-BT-EXIST
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+25
+390
+2F
+  0
+LAYER
+  5
+A3
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+POSTES
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+25
+390
+2F
+  0
+LAYER
+  5
+A4
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TRANSFORMADORES
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+35
+390
+2F
+  0
+LAYER
+  5
+A5
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+VIAS
+ 70
+0
+ 62
+8
+  6
+Continuous
+370
+13
+390
+2F
+  0
+LAYER
+  5
+A6
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+CONSTRUCCIONES
+ 70
+0
+ 62
+8
+  6
+Continuous
+370
+13
+390
+2F
+  0
+LAYER
+  5
+A7
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+COTAS
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+13
+390
+2F
+  0
+LAYER
+  5
+A8
+330
+22
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+VIEWPORTS
+ 70
+0
+ 62
+8
+  6
+Continuous
+290
+0
+370
+-3
+390
+2F
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+23
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+STYLE
+  5
+A9
+330
+23
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+0
+ 42
+2.5
+  3
+LiberationSans-Regular.ttf
+  4
+
+1001
+ACAD
+1000
+Liberation Sans
+1071
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+24
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+25
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+26
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+APPID
+  5
+AA
+330
+26
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+27
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+100
+AcDbDimStyleTable
+  0
+DIMSTYLE
+105
+AB
+330
+27
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+0
+ 41
+2.5
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+140
+2.5
+141
+2.5
+147
+0.625
+ 77
+1
+ 78
+8
+271
+2
+272
+2
+278
+44
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+28
+330
+0
+100
+AcDbSymbolTable
+ 70
+32
+  0
+BLOCK_RECORD
+  5
+33
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+340
+31
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+34
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+340
+32
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+35
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_NORTE
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+38
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_POSTE_CONCRETO_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3B
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_POSTE_CONCRETO_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3E
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_POSTE_FIBRA_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+41
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_POSTE_FIBRA_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+44
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_BAJANTE_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+47
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_BAJANTE_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4A
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_CORTACIRCUITO_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+4D
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_CORTACIRCUITO_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+50
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_TRAFO_1F_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+53
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_TRAFO_1F_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+56
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_TRAFO_3F_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+59
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_TRAFO_3F_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5C
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_CAJA_DISTRIBUCION_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+5F
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_CAJA_DISTRIBUCION_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+62
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_GABINETE_MEDIDA_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+65
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_GABINETE_MEDIDA_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+68
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_DPS_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+6B
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_DPS_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+6E
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_PUESTA_TIERRA
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+71
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RETIRAR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+74
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_PUNTO_A
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+77
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_MT_DESNUDA_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+7A
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_MT_DESNUDA_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+7D
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_MT_CUBIERTO_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+80
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_MT_CUBIERTO_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+83
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_BT_TRENZADA_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+86
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_BT_TRENZADA_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+89
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_BT_SUBTERRANEO_EX
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+8C
+330
+28
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+EPM_RED_BT_SUBTERRANEO_PR
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+AC
+330
+33
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+AD
+330
+33
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+AE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+AF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+36
+330
+35
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_NORTE
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_NORTE
+  1
+
+  4
+Norte geográfico (6.2.3.2: siempre en la localización) (existente o proyectado) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+HATCH
+  5
+B0
+330
+35
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+0.0
+ 20
+8.0
+ 10
+-2.5
+ 20
+-2.0
+ 10
+0.0
+ 20
+0.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+B1
+330
+35
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+0.0
+ 20
+8.0
+ 10
+-2.5
+ 20
+-2.0
+ 10
+0.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+B2
+330
+35
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+0.0
+ 20
+8.0
+ 10
+2.5
+ 20
+-2.0
+ 10
+0.0
+ 20
+0.0
+  0
+TEXT
+  5
+B3
+330
+35
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+0.0
+ 20
+-5.5
+ 30
+0.0
+ 40
+3.0
+  1
+N
+  7
+Standard
+ 72
+1
+ 11
+0.0
+ 21
+-5.5
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+ENDBLK
+  5
+37
+330
+35
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+39
+330
+38
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_POSTE_CONCRETO_EX
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_POSTE_CONCRETO_EX
+  1
+
+  4
+Poste de concreto (existente) — NC-RA8-001 Anexo A, pág. 52
+  0
+HATCH
+  5
+B4
+330
+38
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+1
+ 73
+1
+ 93
+2
+ 10
+-1.5
+ 20
+0.0
+ 42
+1.0
+ 10
+1.5
+ 20
+0.0
+ 42
+1.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+CIRCLE
+  5
+B5
+330
+38
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5
+  0
+ATTDEF
+  5
+B6
+330
+38
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+0.3
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Altura del poste (m)
+  2
+ALTURA
+ 70
+0
+  0
+ATTDEF
+  5
+B7
+330
+38
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+-2.9
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Carga de rotura (kgf)
+  2
+CARGA
+ 70
+0
+  0
+ENDBLK
+  5
+3A
+330
+38
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3C
+330
+3B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_POSTE_CONCRETO_PR
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_POSTE_CONCRETO_PR
+  1
+
+  4
+Poste de concreto (proyectado) — NC-RA8-001 Anexo A, pág. 52
+  0
+CIRCLE
+  5
+B8
+330
+3B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5
+  0
+ATTDEF
+  5
+B9
+330
+3B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+0.3
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Altura del poste (m)
+  2
+ALTURA
+ 70
+0
+  0
+ATTDEF
+  5
+BA
+330
+3B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+-2.9
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Carga de rotura (kgf)
+  2
+CARGA
+ 70
+0
+  0
+ENDBLK
+  5
+3D
+330
+3B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3F
+330
+3E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_POSTE_FIBRA_EX
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_POSTE_FIBRA_EX
+  1
+
+  4
+Poste de fibra (PRFV) monolítico (existente) — NC-RA8-001 Anexo A, pág. 52
+  0
+CIRCLE
+  5
+BB
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5
+  0
+LINE
+  5
+BC
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.4
+ 20
+-0.4
+ 30
+0.0
+ 11
+-0.725
+ 21
+0.275
+ 31
+0.0
+  0
+LINE
+  5
+BD
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.275
+ 20
+0.725
+ 30
+0.0
+ 11
+0.4
+ 21
+1.4
+ 31
+0.0
+  0
+LINE
+  5
+BE
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.2
+ 20
+-0.75
+ 30
+0.0
+ 11
+-0.75
+ 21
+-0.3
+ 31
+0.0
+  0
+LINE
+  5
+BF
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.3
+ 20
+0.75
+ 30
+0.0
+ 11
+0.75
+ 21
+1.2
+ 31
+0.0
+  0
+LINE
+  5
+C0
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.0
+ 20
+-1.1
+ 30
+0.0
+ 11
+-0.55
+ 21
+-0.65
+ 31
+0.0
+  0
+LINE
+  5
+C1
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.65
+ 20
+0.55
+ 30
+0.0
+ 11
+1.1
+ 21
+1.0
+ 31
+0.0
+  0
+LINE
+  5
+C2
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.65
+ 20
+-1.3
+ 30
+0.0
+ 11
+-0.125
+ 21
+-0.775
+ 31
+0.0
+  0
+LINE
+  5
+C3
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.775
+ 20
+0.125
+ 30
+0.0
+ 11
+1.3
+ 21
+0.65
+ 31
+0.0
+  0
+LINE
+  5
+C4
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.225
+ 20
+-1.425
+ 30
+0.0
+ 11
+1.425
+ 21
+0.225
+ 31
+0.0
+  0
+HATCH
+  5
+C5
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+1
+ 73
+1
+ 93
+2
+ 10
+-0.75
+ 20
+0.0
+ 42
+1.0
+ 10
+0.75
+ 20
+0.0
+ 42
+1.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+CIRCLE
+  5
+C6
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.75
+  0
+ATTDEF
+  5
+C7
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+0.3
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Altura del poste (m)
+  2
+ALTURA
+ 70
+0
+  0
+ATTDEF
+  5
+C8
+330
+3E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+-2.9
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Carga de rotura (kgf)
+  2
+CARGA
+ 70
+0
+  0
+ENDBLK
+  5
+40
+330
+3E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+42
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_POSTE_FIBRA_PR
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_POSTE_FIBRA_PR
+  1
+
+  4
+Poste de fibra (PRFV) monolítico (proyectado) — NC-RA8-001 Anexo A, pág. 52
+  0
+CIRCLE
+  5
+C9
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5
+  0
+LINE
+  5
+CA
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.4
+ 20
+-0.4
+ 30
+0.0
+ 11
+-0.725
+ 21
+0.275
+ 31
+0.0
+  0
+LINE
+  5
+CB
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.275
+ 20
+0.725
+ 30
+0.0
+ 11
+0.4
+ 21
+1.4
+ 31
+0.0
+  0
+LINE
+  5
+CC
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.2
+ 20
+-0.75
+ 30
+0.0
+ 11
+-0.75
+ 21
+-0.3
+ 31
+0.0
+  0
+LINE
+  5
+CD
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.3
+ 20
+0.75
+ 30
+0.0
+ 11
+0.75
+ 21
+1.2
+ 31
+0.0
+  0
+LINE
+  5
+CE
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-1.0
+ 20
+-1.1
+ 30
+0.0
+ 11
+-0.55
+ 21
+-0.65
+ 31
+0.0
+  0
+LINE
+  5
+CF
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.65
+ 20
+0.55
+ 30
+0.0
+ 11
+1.1
+ 21
+1.0
+ 31
+0.0
+  0
+LINE
+  5
+D0
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.65
+ 20
+-1.3
+ 30
+0.0
+ 11
+-0.125
+ 21
+-0.775
+ 31
+0.0
+  0
+LINE
+  5
+D1
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.775
+ 20
+0.125
+ 30
+0.0
+ 11
+1.3
+ 21
+0.65
+ 31
+0.0
+  0
+LINE
+  5
+D2
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.225
+ 20
+-1.425
+ 30
+0.0
+ 11
+1.425
+ 21
+0.225
+ 31
+0.0
+  0
+CIRCLE
+  5
+D3
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.75
+  0
+CIRCLE
+  5
+D4
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.33
+  0
+ATTDEF
+  5
+D5
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+0.3
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Altura del poste (m)
+  2
+ALTURA
+ 70
+0
+  0
+ATTDEF
+  5
+D6
+330
+41
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+2.5
+ 20
+-2.9
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Carga de rotura (kgf)
+  2
+CARGA
+ 70
+0
+  0
+ENDBLK
+  5
+43
+330
+41
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+45
+330
+44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_BAJANTE_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_BAJANTE_EX
+  1
+
+  4
+Bajante (existente) — NC-RA8-001 Anexo A, pág. 51
+  0
+LINE
+  5
+D7
+330
+44
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-8.0
+ 20
+0.0
+ 30
+0.0
+ 11
+-2.4
+ 21
+0.0
+ 31
+0.0
+  0
+HATCH
+  5
+D8
+330
+44
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+-2.4
+ 20
+0.7
+ 10
+-0.9
+ 20
+0.0
+ 10
+-2.4
+ 20
+-0.7
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+D9
+330
+44
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+-2.4
+ 20
+0.7
+ 10
+-0.9
+ 20
+0.0
+ 10
+-2.4
+ 20
+-0.7
+  0
+HATCH
+  5
+DA
+330
+44
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+1
+ 73
+1
+ 93
+2
+ 10
+-0.9
+ 20
+0.0
+ 42
+1.0
+ 10
+0.9
+ 20
+0.0
+ 42
+1.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+CIRCLE
+  5
+DB
+330
+44
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.9
+  0
+ENDBLK
+  5
+46
+330
+44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+48
+330
+47
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_BAJANTE_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_BAJANTE_PR
+  1
+
+  4
+Bajante (proyectado) — NC-RA8-001 Anexo A, pág. 51
+  0
+LINE
+  5
+DC
+330
+47
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-8.0
+ 20
+0.0
+ 30
+0.0
+ 11
+-2.4
+ 21
+0.0
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+DD
+330
+47
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+-2.4
+ 20
+0.7
+ 10
+-0.9
+ 20
+0.0
+ 10
+-2.4
+ 20
+-0.7
+  0
+CIRCLE
+  5
+DE
+330
+47
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.9
+  0
+ENDBLK
+  5
+49
+330
+47
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4B
+330
+4A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_CORTACIRCUITO_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_CORTACIRCUITO_EX
+  1
+
+  4
+Cortacircuito primario con fusible (cuchilla con elemento fusible) (existente) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+HATCH
+  5
+DF
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+1
+ 73
+1
+ 93
+2
+ 10
+-4.0
+ 20
+0.0
+ 42
+1.0
+ 10
+-3.0
+ 20
+0.0
+ 42
+1.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+CIRCLE
+  5
+E0
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-3.5
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+HATCH
+  5
+E1
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+1
+ 73
+1
+ 93
+2
+ 10
+3.0
+ 20
+0.0
+ 42
+1.0
+ 10
+4.0
+ 20
+0.0
+ 42
+1.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+CIRCLE
+  5
+E2
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+3.5
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+LINE
+  5
+E3
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-3.0
+ 20
+0.2
+ 30
+0.0
+ 11
+3.1
+ 21
+2.2
+ 31
+0.0
+  0
+LINE
+  5
+E4
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-0.9
+ 20
+0.2
+ 30
+0.0
+ 11
+0.9
+ 21
+2.2
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+E5
+330
+4A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-1.2
+ 20
+0.6
+ 10
+1.2
+ 20
+1.4
+ 10
+0.9
+ 20
+2.2
+ 10
+-0.9
+ 20
+1.4
+  0
+ENDBLK
+  5
+4C
+330
+4A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+4E
+330
+4D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_CORTACIRCUITO_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_CORTACIRCUITO_PR
+  1
+
+  4
+Cortacircuito primario con fusible (cuchilla con elemento fusible) (proyectado) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+CIRCLE
+  5
+E6
+330
+4D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-3.5
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+E7
+330
+4D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+3.5
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+LINE
+  5
+E8
+330
+4D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-3.0
+ 20
+0.2
+ 30
+0.0
+ 11
+3.1
+ 21
+2.2
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+E9
+330
+4D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-1.2
+ 20
+0.6
+ 10
+1.2
+ 20
+1.4
+ 10
+0.9
+ 20
+2.2
+ 10
+-0.9
+ 20
+1.4
+  0
+ENDBLK
+  5
+4F
+330
+4D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+51
+330
+50
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_TRAFO_1F_EX
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_TRAFO_1F_EX
+  1
+
+  4
+Transformador 1 Ø, capacidad (existente) — NC-RA8-001 Anexo A, pág. 55
+  0
+CIRCLE
+  5
+EA
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+2.5
+  0
+ARC
+  5
+EB
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-0.8
+ 20
+0.45
+ 30
+0.0
+ 40
+0.8
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
+EC
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.8
+ 20
+0.45
+ 30
+0.0
+ 40
+0.8
+100
+AcDbArc
+ 50
+180.0
+ 51
+360.0
+  0
+ARC
+  5
+ED
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-0.8
+ 20
+-0.45
+ 30
+0.0
+ 40
+0.8
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
+EE
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.8
+ 20
+-0.45
+ 30
+0.0
+ 40
+0.8
+100
+AcDbArc
+ 50
+180.0
+ 51
+360.0
+  0
+ATTDEF
+  5
+EF
+330
+50
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.5
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+No. kVA
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Número y potencia (kVA)
+  2
+KVA
+ 70
+0
+  0
+ENDBLK
+  5
+52
+330
+50
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+54
+330
+53
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_TRAFO_1F_PR
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_TRAFO_1F_PR
+  1
+
+  4
+Transformador 1 Ø, capacidad (proyectado) — NC-RA8-001 Anexo A, pág. 55
+  0
+CIRCLE
+  5
+F0
+330
+53
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+2.5
+  0
+ATTDEF
+  5
+F1
+330
+53
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.5
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+No. kVA
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Número y potencia (kVA)
+  2
+KVA
+ 70
+0
+  0
+ENDBLK
+  5
+55
+330
+53
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+57
+330
+56
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_TRAFO_3F_EX
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_TRAFO_3F_EX
+  1
+
+  4
+Transformador 3 Ø 13,2 kV, capacidad (existente) — NC-RA8-001 Anexo A, pág. 55
+  0
+LWPOLYLINE
+  5
+F2
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+0.0
+ 20
+2.8
+ 10
+-2.4248
+ 20
+-1.4
+ 10
+2.4248
+ 20
+-1.4
+  0
+ARC
+  5
+F3
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-0.6
+ 20
+0.05
+ 30
+0.0
+ 40
+0.6
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
+F4
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.6
+ 20
+0.05
+ 30
+0.0
+ 40
+0.6
+100
+AcDbArc
+ 50
+180.0
+ 51
+360.0
+  0
+ARC
+  5
+F5
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+-0.6
+ 20
+-0.55
+ 30
+0.0
+ 40
+0.6
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
+F6
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.6
+ 20
+-0.55
+ 30
+0.0
+ 40
+0.6
+100
+AcDbArc
+ 50
+180.0
+ 51
+360.0
+  0
+ATTDEF
+  5
+F7
+330
+56
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.5
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+No. kVA
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Número y potencia (kVA)
+  2
+KVA
+ 70
+0
+  0
+ENDBLK
+  5
+58
+330
+56
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5A
+330
+59
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_TRAFO_3F_PR
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_TRAFO_3F_PR
+  1
+
+  4
+Transformador 3 Ø 13,2 kV, capacidad (proyectado) — NC-RA8-001 Anexo A, pág. 55
+  0
+LWPOLYLINE
+  5
+F8
+330
+59
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+0.0
+ 20
+2.8
+ 10
+-2.4248
+ 20
+-1.4
+ 10
+2.4248
+ 20
+-1.4
+  0
+ATTDEF
+  5
+F9
+330
+59
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.5
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+No. kVA
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Número y potencia (kVA)
+  2
+KVA
+ 70
+0
+  0
+ENDBLK
+  5
+5B
+330
+59
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5D
+330
+5C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_CAJA_DISTRIBUCION_EX
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_CAJA_DISTRIBUCION_EX
+  1
+
+  4
+Caja de distribución, alumbrado público o salida de circuito (caja de inspección) (existente) — NC-RA8-001 Anexo A, pág. 56
+  0
+HATCH
+  5
+FA
+330
+5C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+4
+ 10
+-2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+2.0
+ 10
+-2.0
+ 20
+2.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+FB
+330
+5C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+2.0
+ 10
+-2.0
+ 20
+2.0
+  0
+ATTDEF
+  5
+FC
+330
+5C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.0
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+RS3
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Tipo de caja (RS3, CS-275…)
+  2
+TIPO
+ 70
+0
+  0
+ENDBLK
+  5
+5E
+330
+5C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+60
+330
+5F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_CAJA_DISTRIBUCION_PR
+ 70
+2
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_CAJA_DISTRIBUCION_PR
+  1
+
+  4
+Caja de distribución, alumbrado público o salida de circuito (caja de inspección) (proyectado) — NC-RA8-001 Anexo A, pág. 56
+  0
+LWPOLYLINE
+  5
+FD
+330
+5F
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+-2.0
+ 10
+2.0
+ 20
+2.0
+ 10
+-2.0
+ 20
+2.0
+  0
+ATTDEF
+  5
+FE
+330
+5F
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+3.0
+ 20
+-1.25
+ 30
+0.0
+ 40
+2.5
+  1
+RS3
+  7
+Standard
+100
+AcDbAttributeDefinition
+280
+0
+  3
+Tipo de caja (RS3, CS-275…)
+  2
+TIPO
+ 70
+0
+  0
+ENDBLK
+  5
+61
+330
+5F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+63
+330
+62
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_GABINETE_MEDIDA_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_GABINETE_MEDIDA_EX
+  1
+
+  4
+Gabinete de medida y protección (existente) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+LWPOLYLINE
+  5
+FF
+330
+62
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-5.0
+ 20
+-3.0
+ 10
+5.0
+ 20
+-3.0
+ 10
+5.0
+ 20
+3.0
+ 10
+-5.0
+ 20
+3.0
+  0
+HATCH
+  5
+100
+330
+62
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+4
+ 10
+-5.0
+ 20
+-3.0
+ 10
+-3.6
+ 20
+-3.0
+ 10
+-3.6
+ 20
+3.0
+ 10
+-5.0
+ 20
+3.0
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+101
+330
+62
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-5.0
+ 20
+-3.0
+ 10
+-3.6
+ 20
+-3.0
+ 10
+-3.6
+ 20
+3.0
+ 10
+-5.0
+ 20
+3.0
+  0
+TEXT
+  5
+102
+330
+62
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+0.7
+ 20
+0.0
+ 30
+0.0
+ 40
+1.8
+  1
+GM
+  7
+Standard
+ 72
+1
+ 11
+0.7
+ 21
+0.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+ENDBLK
+  5
+64
+330
+62
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+66
+330
+65
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_GABINETE_MEDIDA_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_GABINETE_MEDIDA_PR
+  1
+
+  4
+Gabinete de medida y protección (proyectado) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+LWPOLYLINE
+  5
+103
+330
+65
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-5.0
+ 20
+-3.0
+ 10
+5.0
+ 20
+-3.0
+ 10
+5.0
+ 20
+3.0
+ 10
+-5.0
+ 20
+3.0
+  0
+LINE
+  5
+104
+330
+65
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-3.6
+ 20
+-3.0
+ 30
+0.0
+ 11
+-3.6
+ 21
+3.0
+ 31
+0.0
+  0
+TEXT
+  5
+105
+330
+65
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+0.7
+ 20
+0.0
+ 30
+0.0
+ 40
+1.8
+  1
+GM
+  7
+Standard
+ 72
+1
+ 11
+0.7
+ 21
+0.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+ENDBLK
+  5
+67
+330
+65
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+69
+330
+68
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_DPS_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_DPS_EX
+  1
+
+  4
+DPS (descargador de sobretensiones) (existente) — NC-RA8-001 Anexo A, pág. 61
+  0
+LINE
+  5
+106
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-7.0
+ 20
+0.0
+ 30
+0.0
+ 11
+-3.0
+ 21
+0.0
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+107
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-3.0
+ 20
+-1.5
+ 10
+3.0
+ 20
+-1.5
+ 10
+3.0
+ 20
+1.5
+ 10
+-3.0
+ 20
+1.5
+  0
+HATCH
+  5
+108
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+-2.2
+ 20
+0.9
+ 10
+-0.25
+ 20
+0.0
+ 10
+-2.2
+ 20
+-0.9
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+109
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+-2.2
+ 20
+0.9
+ 10
+-0.25
+ 20
+0.0
+ 10
+-2.2
+ 20
+-0.9
+  0
+HATCH
+  5
+10A
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+2.2
+ 20
+0.9
+ 10
+0.25
+ 20
+0.0
+ 10
+2.2
+ 20
+-0.9
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+  0
+LWPOLYLINE
+  5
+10B
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+2.2
+ 20
+0.9
+ 10
+0.25
+ 20
+0.0
+ 10
+2.2
+ 20
+-0.9
+  0
+LINE
+  5
+10C
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+3.0
+ 20
+0.0
+ 30
+0.0
+ 11
+6.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+10D
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.0
+ 20
+1.5
+ 30
+0.0
+ 11
+6.0
+ 21
+-1.5
+ 31
+0.0
+  0
+LINE
+  5
+10E
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.8
+ 20
+1.1
+ 30
+0.0
+ 11
+6.8
+ 21
+-1.1
+ 31
+0.0
+  0
+LINE
+  5
+10F
+330
+68
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+7.6
+ 20
+0.6
+ 30
+0.0
+ 11
+7.6
+ 21
+-0.6
+ 31
+0.0
+  0
+ENDBLK
+  5
+6A
+330
+68
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6C
+330
+6B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_DPS_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_DPS_PR
+  1
+
+  4
+DPS (descargador de sobretensiones) (proyectado) — NC-RA8-001 Anexo A, pág. 61
+  0
+LINE
+  5
+110
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-7.0
+ 20
+0.0
+ 30
+0.0
+ 11
+-3.0
+ 21
+0.0
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+111
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+-3.0
+ 20
+-1.5
+ 10
+3.0
+ 20
+-1.5
+ 10
+3.0
+ 20
+1.5
+ 10
+-3.0
+ 20
+1.5
+  0
+LWPOLYLINE
+  5
+112
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+-2.2
+ 20
+0.9
+ 10
+-0.25
+ 20
+0.0
+ 10
+-2.2
+ 20
+-0.9
+  0
+LWPOLYLINE
+  5
+113
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+3
+ 70
+1
+ 10
+2.2
+ 20
+0.9
+ 10
+0.25
+ 20
+0.0
+ 10
+2.2
+ 20
+-0.9
+  0
+LINE
+  5
+114
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+3.0
+ 20
+0.0
+ 30
+0.0
+ 11
+6.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+115
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.0
+ 20
+1.5
+ 30
+0.0
+ 11
+6.0
+ 21
+-1.5
+ 31
+0.0
+  0
+LINE
+  5
+116
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.8
+ 20
+1.1
+ 30
+0.0
+ 11
+6.8
+ 21
+-1.1
+ 31
+0.0
+  0
+LINE
+  5
+117
+330
+6B
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+7.6
+ 20
+0.6
+ 30
+0.0
+ 11
+7.6
+ 21
+-0.6
+ 31
+0.0
+  0
+ENDBLK
+  5
+6D
+330
+6B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+6F
+330
+6E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_PUESTA_TIERRA
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_PUESTA_TIERRA
+  1
+
+  4
+Puesta a tierra (existente o proyectado) — NC-RA8-001 Anexo A, pág. 61
+  0
+LINE
+  5
+118
+330
+6E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-7.0
+ 20
+0.0
+ 30
+0.0
+ 11
+0.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+119
+330
+6E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+1.5
+ 30
+0.0
+ 11
+0.0
+ 21
+-1.5
+ 31
+0.0
+  0
+LINE
+  5
+11A
+330
+6E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.8
+ 20
+1.1
+ 30
+0.0
+ 11
+0.8
+ 21
+-1.1
+ 31
+0.0
+  0
+LINE
+  5
+11B
+330
+6E
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+1.6
+ 20
+0.6
+ 30
+0.0
+ 11
+1.6
+ 21
+-0.6
+ 31
+0.0
+  0
+ENDBLK
+  5
+70
+330
+6E
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+72
+330
+71
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RETIRAR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RETIRAR
+  1
+
+  4
+Señal que indica retirar (existente o proyectado) — NC-RA8-001 Anexo A, pág. 61
+  0
+LINE
+  5
+11C
+330
+71
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-2.5
+ 20
+-2.5
+ 30
+0.0
+ 11
+2.5
+ 21
+2.5
+ 31
+0.0
+  0
+LINE
+  5
+11D
+330
+71
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+-2.5
+ 20
+2.5
+ 30
+0.0
+ 11
+2.5
+ 21
+-2.5
+ 31
+0.0
+  0
+ENDBLK
+  5
+73
+330
+71
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+75
+330
+74
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_PUNTO_A
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_PUNTO_A
+  1
+
+  4
+Punto de conexión «A» (derivación autorizada por EPM) (existente o proyectado) — Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)
+  0
+CIRCLE
+  5
+11E
+330
+74
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+3.0
+  0
+CIRCLE
+  5
+11F
+330
+74
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+2.2
+  0
+TEXT
+  5
+120
+330
+74
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+2.5
+  1
+A
+  7
+Standard
+ 72
+1
+ 11
+0.0
+ 21
+0.0
+ 31
+0.0
+100
+AcDbText
+ 73
+2
+  0
+ENDBLK
+  5
+76
+330
+74
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+78
+330
+77
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_MT_DESNUDA_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_MT_DESNUDA_EX
+  1
+
+  4
+Línea primaria aérea desnuda (MT) (existente) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LWPOLYLINE
+  5
+121
+330
+77
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 10
+24.0
+ 20
+0.0
+  0
+ENDBLK
+  5
+79
+330
+77
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+7B
+330
+7A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_MT_DESNUDA_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_MT_DESNUDA_PR
+  1
+
+  4
+Línea primaria aérea desnuda (MT) (proyectada) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LINE
+  5
+122
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+3.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+123
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+4.5
+ 20
+0.0
+ 30
+0.0
+ 11
+7.5
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+124
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+9.0
+ 20
+0.0
+ 30
+0.0
+ 11
+12.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+125
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+13.5
+ 20
+0.0
+ 30
+0.0
+ 11
+16.5
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+126
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+18.0
+ 20
+0.0
+ 30
+0.0
+ 11
+21.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+127
+330
+7A
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+22.5
+ 20
+0.0
+ 30
+0.0
+ 11
+24.0
+ 21
+0.0
+ 31
+0.0
+  0
+ENDBLK
+  5
+7C
+330
+7A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+7E
+330
+7D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_MT_CUBIERTO_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_MT_CUBIERTO_EX
+  1
+
+  4
+Cable cubierto primario (MT semiaislado) (existente) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LINE
+  5
+128
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+5.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+129
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+5.68
+ 20
+0.0
+ 30
+0.0
+ 11
+5.92
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12A
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.48
+ 20
+0.0
+ 30
+0.0
+ 11
+6.72
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12B
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+7.4
+ 20
+0.0
+ 30
+0.0
+ 11
+12.4
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12C
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+13.08
+ 20
+0.0
+ 30
+0.0
+ 11
+13.32
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12D
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+13.88
+ 20
+0.0
+ 30
+0.0
+ 11
+14.12
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12E
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+14.8
+ 20
+0.0
+ 30
+0.0
+ 11
+19.8
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+12F
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+20.48
+ 20
+0.0
+ 30
+0.0
+ 11
+20.72
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+130
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+21.28
+ 20
+0.0
+ 30
+0.0
+ 11
+21.52
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+131
+330
+7D
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+22.2
+ 20
+0.0
+ 30
+0.0
+ 11
+24.0
+ 21
+0.0
+ 31
+0.0
+  0
+ENDBLK
+  5
+7F
+330
+7D
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+81
+330
+80
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_MT_CUBIERTO_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_MT_CUBIERTO_PR
+  1
+
+  4
+Cable cubierto primario (MT semiaislado) (proyectada) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LINE
+  5
+132
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+1.6
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+133
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.8
+ 20
+0.8
+ 30
+0.0
+ 11
+0.8
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+134
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+2.48
+ 20
+0.0
+ 30
+0.0
+ 11
+2.72
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+135
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+3.28
+ 20
+0.0
+ 30
+0.0
+ 11
+3.52
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+136
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+4.4
+ 20
+0.0
+ 30
+0.0
+ 11
+6.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+137
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+5.2
+ 20
+0.8
+ 30
+0.0
+ 11
+5.2
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+138
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+6.88
+ 20
+0.0
+ 30
+0.0
+ 11
+7.12
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+139
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+7.68
+ 20
+0.0
+ 30
+0.0
+ 11
+7.92
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+13A
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+8.8
+ 20
+0.0
+ 30
+0.0
+ 11
+10.4
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+13B
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+9.6
+ 20
+0.8
+ 30
+0.0
+ 11
+9.6
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+13C
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+11.28
+ 20
+0.0
+ 30
+0.0
+ 11
+11.52
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+13D
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+12.08
+ 20
+0.0
+ 30
+0.0
+ 11
+12.32
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+13E
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+13.2
+ 20
+0.0
+ 30
+0.0
+ 11
+14.8
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+13F
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+14.0
+ 20
+0.8
+ 30
+0.0
+ 11
+14.0
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+140
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+15.68
+ 20
+0.0
+ 30
+0.0
+ 11
+15.92
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+141
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+16.48
+ 20
+0.0
+ 30
+0.0
+ 11
+16.72
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+142
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+17.6
+ 20
+0.0
+ 30
+0.0
+ 11
+19.2
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+143
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+18.4
+ 20
+0.8
+ 30
+0.0
+ 11
+18.4
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+144
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+20.08
+ 20
+0.0
+ 30
+0.0
+ 11
+20.32
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+145
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+20.88
+ 20
+0.0
+ 30
+0.0
+ 11
+21.12
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+146
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+22.0
+ 20
+0.0
+ 30
+0.0
+ 11
+23.6
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+147
+330
+80
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+22.8
+ 20
+0.8
+ 30
+0.0
+ 11
+22.8
+ 21
+-0.8
+ 31
+0.0
+  0
+ENDBLK
+  5
+82
+330
+80
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+84
+330
+83
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_BT_TRENZADA_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_BT_TRENZADA_EX
+  1
+
+  4
+Línea secundaria aérea trenzada (BT) (existente) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LWPOLYLINE
+  5
+148
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 10
+0.25
+ 20
+0.275
+ 10
+0.5
+ 20
+0.476314
+ 10
+0.75
+ 20
+0.55
+ 10
+1.0
+ 20
+0.476314
+ 10
+1.25
+ 20
+0.275
+ 10
+1.5
+ 20
+0.0
+ 10
+1.75
+ 20
+-0.275
+ 10
+2.0
+ 20
+-0.476314
+ 10
+2.25
+ 20
+-0.55
+ 10
+2.5
+ 20
+-0.476314
+ 10
+2.75
+ 20
+-0.275
+ 10
+3.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+149
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+3.0
+ 20
+0.0
+ 10
+3.25
+ 20
+0.275
+ 10
+3.5
+ 20
+0.476314
+ 10
+3.75
+ 20
+0.55
+ 10
+4.0
+ 20
+0.476314
+ 10
+4.25
+ 20
+0.275
+ 10
+4.5
+ 20
+0.0
+ 10
+4.75
+ 20
+-0.275
+ 10
+5.0
+ 20
+-0.476314
+ 10
+5.25
+ 20
+-0.55
+ 10
+5.5
+ 20
+-0.476314
+ 10
+5.75
+ 20
+-0.275
+ 10
+6.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14A
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+6.0
+ 20
+0.0
+ 10
+6.25
+ 20
+0.275
+ 10
+6.5
+ 20
+0.476314
+ 10
+6.75
+ 20
+0.55
+ 10
+7.0
+ 20
+0.476314
+ 10
+7.25
+ 20
+0.275
+ 10
+7.5
+ 20
+0.0
+ 10
+7.75
+ 20
+-0.275
+ 10
+8.0
+ 20
+-0.476314
+ 10
+8.25
+ 20
+-0.55
+ 10
+8.5
+ 20
+-0.476314
+ 10
+8.75
+ 20
+-0.275
+ 10
+9.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14B
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+9.0
+ 20
+0.0
+ 10
+9.25
+ 20
+0.275
+ 10
+9.5
+ 20
+0.476314
+ 10
+9.75
+ 20
+0.55
+ 10
+10.0
+ 20
+0.476314
+ 10
+10.25
+ 20
+0.275
+ 10
+10.5
+ 20
+0.0
+ 10
+10.75
+ 20
+-0.275
+ 10
+11.0
+ 20
+-0.476314
+ 10
+11.25
+ 20
+-0.55
+ 10
+11.5
+ 20
+-0.476314
+ 10
+11.75
+ 20
+-0.275
+ 10
+12.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14C
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+12.0
+ 20
+0.0
+ 10
+12.25
+ 20
+0.275
+ 10
+12.5
+ 20
+0.476314
+ 10
+12.75
+ 20
+0.55
+ 10
+13.0
+ 20
+0.476314
+ 10
+13.25
+ 20
+0.275
+ 10
+13.5
+ 20
+0.0
+ 10
+13.75
+ 20
+-0.275
+ 10
+14.0
+ 20
+-0.476314
+ 10
+14.25
+ 20
+-0.55
+ 10
+14.5
+ 20
+-0.476314
+ 10
+14.75
+ 20
+-0.275
+ 10
+15.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14D
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+15.0
+ 20
+0.0
+ 10
+15.25
+ 20
+0.275
+ 10
+15.5
+ 20
+0.476314
+ 10
+15.75
+ 20
+0.55
+ 10
+16.0
+ 20
+0.476314
+ 10
+16.25
+ 20
+0.275
+ 10
+16.5
+ 20
+0.0
+ 10
+16.75
+ 20
+-0.275
+ 10
+17.0
+ 20
+-0.476314
+ 10
+17.25
+ 20
+-0.55
+ 10
+17.5
+ 20
+-0.476314
+ 10
+17.75
+ 20
+-0.275
+ 10
+18.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14E
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+18.0
+ 20
+0.0
+ 10
+18.25
+ 20
+0.275
+ 10
+18.5
+ 20
+0.476314
+ 10
+18.75
+ 20
+0.55
+ 10
+19.0
+ 20
+0.476314
+ 10
+19.25
+ 20
+0.275
+ 10
+19.5
+ 20
+0.0
+ 10
+19.75
+ 20
+-0.275
+ 10
+20.0
+ 20
+-0.476314
+ 10
+20.25
+ 20
+-0.55
+ 10
+20.5
+ 20
+-0.476314
+ 10
+20.75
+ 20
+-0.275
+ 10
+21.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+14F
+330
+83
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+21.0
+ 20
+0.0
+ 10
+21.25
+ 20
+0.275
+ 10
+21.5
+ 20
+0.476314
+ 10
+21.75
+ 20
+0.55
+ 10
+22.0
+ 20
+0.476314
+ 10
+22.25
+ 20
+0.275
+ 10
+22.5
+ 20
+0.0
+ 10
+22.75
+ 20
+-0.275
+ 10
+23.0
+ 20
+-0.476314
+ 10
+23.25
+ 20
+-0.55
+ 10
+23.5
+ 20
+-0.476314
+ 10
+23.75
+ 20
+-0.275
+ 10
+24.0
+ 20
+0.0
+  0
+ENDBLK
+  5
+85
+330
+83
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+87
+330
+86
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_BT_TRENZADA_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_BT_TRENZADA_PR
+  1
+
+  4
+Línea secundaria aérea trenzada (BT) (proyectada) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LWPOLYLINE
+  5
+150
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 10
+0.25
+ 20
+0.275
+ 10
+0.5
+ 20
+0.476314
+ 10
+0.75
+ 20
+0.55
+ 10
+1.0
+ 20
+0.476314
+ 10
+1.25
+ 20
+0.275
+ 10
+1.5
+ 20
+0.0
+ 10
+1.75
+ 20
+-0.275
+ 10
+2.0
+ 20
+-0.476314
+ 10
+2.25
+ 20
+-0.55
+ 10
+2.5
+ 20
+-0.476314
+ 10
+2.75
+ 20
+-0.275
+ 10
+3.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+151
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+4.0
+ 20
+0.0
+ 10
+4.25
+ 20
+0.275
+ 10
+4.5
+ 20
+0.476314
+ 10
+4.75
+ 20
+0.55
+ 10
+5.0
+ 20
+0.476314
+ 10
+5.25
+ 20
+0.275
+ 10
+5.5
+ 20
+0.0
+ 10
+5.75
+ 20
+-0.275
+ 10
+6.0
+ 20
+-0.476314
+ 10
+6.25
+ 20
+-0.55
+ 10
+6.5
+ 20
+-0.476314
+ 10
+6.75
+ 20
+-0.275
+ 10
+7.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+152
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+8.0
+ 20
+0.0
+ 10
+8.25
+ 20
+0.275
+ 10
+8.5
+ 20
+0.476314
+ 10
+8.75
+ 20
+0.55
+ 10
+9.0
+ 20
+0.476314
+ 10
+9.25
+ 20
+0.275
+ 10
+9.5
+ 20
+0.0
+ 10
+9.75
+ 20
+-0.275
+ 10
+10.0
+ 20
+-0.476314
+ 10
+10.25
+ 20
+-0.55
+ 10
+10.5
+ 20
+-0.476314
+ 10
+10.75
+ 20
+-0.275
+ 10
+11.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+153
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+12.0
+ 20
+0.0
+ 10
+12.25
+ 20
+0.275
+ 10
+12.5
+ 20
+0.476314
+ 10
+12.75
+ 20
+0.55
+ 10
+13.0
+ 20
+0.476314
+ 10
+13.25
+ 20
+0.275
+ 10
+13.5
+ 20
+0.0
+ 10
+13.75
+ 20
+-0.275
+ 10
+14.0
+ 20
+-0.476314
+ 10
+14.25
+ 20
+-0.55
+ 10
+14.5
+ 20
+-0.476314
+ 10
+14.75
+ 20
+-0.275
+ 10
+15.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+154
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+16.0
+ 20
+0.0
+ 10
+16.25
+ 20
+0.275
+ 10
+16.5
+ 20
+0.476314
+ 10
+16.75
+ 20
+0.55
+ 10
+17.0
+ 20
+0.476314
+ 10
+17.25
+ 20
+0.275
+ 10
+17.5
+ 20
+0.0
+ 10
+17.75
+ 20
+-0.275
+ 10
+18.0
+ 20
+-0.476314
+ 10
+18.25
+ 20
+-0.55
+ 10
+18.5
+ 20
+-0.476314
+ 10
+18.75
+ 20
+-0.275
+ 10
+19.0
+ 20
+0.0
+  0
+LWPOLYLINE
+  5
+155
+330
+86
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbPolyline
+ 90
+13
+ 70
+0
+ 10
+20.0
+ 20
+0.0
+ 10
+20.25
+ 20
+0.275
+ 10
+20.5
+ 20
+0.476314
+ 10
+20.75
+ 20
+0.55
+ 10
+21.0
+ 20
+0.476314
+ 10
+21.25
+ 20
+0.275
+ 10
+21.5
+ 20
+0.0
+ 10
+21.75
+ 20
+-0.275
+ 10
+22.0
+ 20
+-0.476314
+ 10
+22.25
+ 20
+-0.55
+ 10
+22.5
+ 20
+-0.476314
+ 10
+22.75
+ 20
+-0.275
+ 10
+23.0
+ 20
+0.0
+  0
+ENDBLK
+  5
+88
+330
+86
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+8A
+330
+89
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_BT_SUBTERRANEO_EX
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_BT_SUBTERRANEO_EX
+  1
+
+  4
+Conductor secundario subterráneo (acometida BT) (existente) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LINE
+  5
+156
+330
+89
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+6.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+157
+330
+89
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+8.0
+ 20
+0.0
+ 30
+0.0
+ 11
+14.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+158
+330
+89
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+16.0
+ 20
+0.0
+ 30
+0.0
+ 11
+22.0
+ 21
+0.0
+ 31
+0.0
+  0
+ENDBLK
+  5
+8B
+330
+89
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+8D
+330
+8C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+EPM_RED_BT_SUBTERRANEO_PR
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+EPM_RED_BT_SUBTERRANEO_PR
+  1
+
+  4
+Conductor secundario subterráneo (acometida BT) (proyectada) — NC-RA8-001 Anexo A, pág. 51 (muestra de 24 mm)
+  0
+LINE
+  5
+159
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 11
+2.0
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+15A
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+3.0
+ 20
+0.0
+ 30
+0.0
+ 11
+4.6
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+15B
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+3.8
+ 20
+0.8
+ 30
+0.0
+ 11
+3.8
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+15C
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+5.6
+ 20
+0.0
+ 30
+0.0
+ 11
+7.6
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+15D
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+8.6
+ 20
+0.0
+ 30
+0.0
+ 11
+10.2
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+15E
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+9.4
+ 20
+0.8
+ 30
+0.0
+ 11
+9.4
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+15F
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+11.2
+ 20
+0.0
+ 30
+0.0
+ 11
+13.2
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+160
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+14.2
+ 20
+0.0
+ 30
+0.0
+ 11
+15.8
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+161
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+15.0
+ 20
+0.8
+ 30
+0.0
+ 11
+15.0
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+162
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+16.8
+ 20
+0.0
+ 30
+0.0
+ 11
+18.8
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+163
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+19.8
+ 20
+0.0
+ 30
+0.0
+ 11
+21.4
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+164
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+20.6
+ 20
+0.8
+ 30
+0.0
+ 11
+20.6
+ 21
+-0.8
+ 31
+0.0
+  0
+LINE
+  5
+165
+330
+8C
+100
+AcDbEntity
+  8
+0
+ 62
+0
+100
+AcDbLine
+ 10
+22.4
+ 20
+0.0
+ 30
+0.0
+ 11
+24.0
+ 21
+0.0
+ 31
+0.0
+  0
+ENDBLK
+  5
+8E
+330
+8C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+VIEWPORT
+  5
+166
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+0
+100
+AcDbViewport
+ 10
+500.0
+ 20
+353.5
+ 30
+0.0
+ 40
+1050.0
+ 41
+742.35
+ 68
+1
+ 69
+1
+ 12
+500.0
+ 22
+353.5
+ 13
+0.0
+ 23
+0.0
+ 14
+10.0
+ 24
+10.0
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+742.35
+ 50
+0.0
+ 51
+0.0
+ 72
+1000
+ 90
+557056
+  1
+
+281
+0
+ 71
+1
+ 74
+0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+0
+146
+0.0
+170
+0
+ 61
+5
+  0
+LWPOLYLINE
+  5
+167
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-MARCO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+10.0
+ 20
+10.0
+ 10
+990.0
+ 20
+10.0
+ 10
+990.0
+ 20
+697.0
+ 10
+10.0
+ 20
+697.0
+  0
+LWPOLYLINE
+  5
+168
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+10.0
+ 20
+298.54
+ 10
+321.6
+ 20
+298.54
+ 10
+321.6
+ 20
+697.0
+ 10
+10.0
+ 20
+697.0
+  0
+TEXT
+  5
+169
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+13.0
+ 20
+690.5
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 2 - LOCALIZACIÓN
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+16A
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+318.6
+ 20
+690.5
+ 30
+0.0
+ 40
+2.5
+  1
+ESCALA 1:500
+  7
+Standard
+ 72
+2
+ 11
+318.6
+ 21
+690.5
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+16B
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+10.0
+ 20
+687.5
+ 30
+0.0
+ 11
+321.6
+ 21
+687.5
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+16C
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+321.6
+ 20
+298.54
+ 10
+567.6
+ 20
+298.54
+ 10
+567.6
+ 20
+697.0
+ 10
+321.6
+ 20
+697.0
+  0
+TEXT
+  5
+16D
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+324.6
+ 20
+690.5
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 3 - DIAGRAMA DE UBICACIÓN GEOGRÁFICA
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+16E
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+564.6
+ 20
+690.5
+ 30
+0.0
+ 40
+2.5
+  1
+ESCALA 1:1000
+  7
+Standard
+ 72
+2
+ 11
+564.6
+ 21
+690.5
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+16F
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+321.6
+ 20
+687.5
+ 30
+0.0
+ 11
+567.6
+ 21
+687.5
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+170
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+567.6
+ 20
+298.54
+ 10
+830.0
+ 20
+298.54
+ 10
+830.0
+ 20
+697.0
+ 10
+567.6
+ 20
+697.0
+  0
+TEXT
+  5
+171
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+570.6
+ 20
+690.5
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 6 - CONVENCIONES
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+172
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+567.6
+ 20
+687.5
+ 30
+0.0
+ 11
+830.0
+ 21
+687.5
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+173
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+10.0
+ 20
+10.0
+ 10
+518.4
+ 20
+10.0
+ 10
+518.4
+ 20
+298.54
+ 10
+10.0
+ 20
+298.54
+  0
+TEXT
+  5
+174
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+13.0
+ 20
+292.04
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 4 - VISTAS COMPLEMENTARIAS
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+175
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+515.4
+ 20
+292.04
+ 30
+0.0
+ 40
+2.5
+  1
+ESCALAS INDICADAS
+  7
+Standard
+ 72
+2
+ 11
+515.4
+ 21
+292.04
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+176
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+10.0
+ 20
+289.04
+ 30
+0.0
+ 11
+518.4
+ 21
+289.04
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+177
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+518.4
+ 20
+10.0
+ 10
+830.0
+ 20
+10.0
+ 10
+830.0
+ 20
+298.54
+ 10
+518.4
+ 20
+298.54
+  0
+TEXT
+  5
+178
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+521.4
+ 20
+292.04
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 7 - CUADRO DE CARGAS
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+179
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+518.4
+ 20
+289.04
+ 30
+0.0
+ 11
+830.0
+ 21
+289.04
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+17A
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+438.5
+ 10
+990.0
+ 20
+438.5
+ 10
+990.0
+ 20
+697.0
+ 10
+830.0
+ 20
+697.0
+  0
+TEXT
+  5
+17B
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+690.5
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 5 - DIAGRAMA UNIFILAR
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+17C
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+987.0
+ 20
+690.5
+ 30
+0.0
+ 40
+2.5
+  1
+SIN ESCALA
+  7
+Standard
+ 72
+2
+ 11
+987.0
+ 21
+690.5
+ 31
+0.0
+100
+AcDbText
+  0
+LINE
+  5
+17D
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+830.0
+ 20
+687.5
+ 30
+0.0
+ 11
+990.0
+ 21
+687.5
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+17E
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+180.0
+ 10
+990.0
+ 20
+180.0
+ 10
+990.0
+ 20
+438.5
+ 10
+830.0
+ 20
+438.5
+  0
+TEXT
+  5
+17F
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+432.0
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 8 - NOTAS
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+180
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbLine
+ 10
+830.0
+ 20
+429.0
+ 30
+0.0
+ 11
+990.0
+ 21
+429.0
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+181
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ESPACIOS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+110.0
+ 10
+990.0
+ 20
+110.0
+ 10
+990.0
+ 20
+180.0
+ 10
+830.0
+ 20
+180.0
+  0
+TEXT
+  5
+182
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+173.5
+ 30
+0.0
+ 40
+3.5
+  1
+ESPACIO 9 - SELLOS
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+183
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+113.0
+ 30
+0.0
+ 40
+2.5
+  1
+Espacio para el sello de aceptación de EPM (160 x 70 mm)
+  7
+Standard
+100
+AcDbText
+  0
+VIEWPORT
+  5
+184
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+VIEWPORTS
+100
+AcDbViewport
+ 10
+165.8
+ 20
+493.02
+ 30
+0.0
+ 40
+305.6
+ 41
+382.96
+ 68
+2
+ 69
+2
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+10.0
+ 24
+10.0
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+191.48
+ 50
+0.0
+ 51
+0.0
+ 72
+1000
+ 90
+819232
+  1
+
+281
+0
+ 71
+1
+ 74
+0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+0
+146
+0.0
+170
+0
+ 61
+5
+  0
+VIEWPORT
+  5
+185
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+VIEWPORTS
+100
+AcDbViewport
+ 10
+444.6
+ 20
+493.02
+ 30
+0.0
+ 40
+240.0
+ 41
+382.96
+ 68
+3
+ 69
+3
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+10.0
+ 24
+10.0
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+382.96
+ 50
+0.0
+ 51
+0.0
+ 72
+1000
+ 90
+819232
+  1
+
+281
+0
+ 71
+1
+ 74
+0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+0
+146
+0.0
+170
+0
+ 61
+5
+  0
+INSERT
+  5
+186
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbBlockReference
+  2
+EPM_NORTE
+ 10
+309.6
+ 20
+671.5
+ 30
+0.0
+  0
+TEXT
+  5
+187
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+680.5
+ 30
+0.0
+ 40
+2.5
+  1
+DEFINICIÓN
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+188
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+704.048
+ 20
+680.5
+ 30
+0.0
+ 40
+2.5
+  1
+EXISTENTE
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+189
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+767.024
+ 20
+680.5
+ 30
+0.0
+ 40
+2.5
+  1
+PROYECTADA
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+18A
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+662.25
+ 30
+0.0
+ 40
+2.5
+  1
+Poste de concreto
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+18B
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_POSTE_CONCRETO_EX
+ 10
+708.048
+ 20
+663.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+18C
+330
+18B
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+710.548
+ 20
+663.8
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+ALTURA
+ 70
+0
+  0
+ATTRIB
+  5
+18D
+330
+18B
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+710.548
+ 20
+660.6
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+CARGA
+ 70
+0
+  0
+SEQEND
+  5
+18E
+330
+18B
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+INSERT
+  5
+18F
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_POSTE_CONCRETO_PR
+ 10
+771.024
+ 20
+663.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+190
+330
+18F
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+773.524
+ 20
+663.8
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+ALTURA
+ 70
+0
+  0
+ATTRIB
+  5
+191
+330
+18F
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+773.524
+ 20
+660.6
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+CARGA
+ 70
+0
+  0
+SEQEND
+  5
+192
+330
+18F
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+TEXT
+  5
+193
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+649.25
+ 30
+0.0
+ 40
+2.5
+  1
+Poste de fibra (PRFV)
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+194
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_POSTE_FIBRA_EX
+ 10
+708.048
+ 20
+650.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+195
+330
+194
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+710.548
+ 20
+650.8
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+ALTURA
+ 70
+0
+  0
+ATTRIB
+  5
+196
+330
+194
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+710.548
+ 20
+647.6
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+CARGA
+ 70
+0
+  0
+SEQEND
+  5
+197
+330
+194
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+INSERT
+  5
+198
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_POSTE_FIBRA_PR
+ 10
+771.024
+ 20
+650.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+199
+330
+198
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+773.524
+ 20
+650.8
+ 30
+0.0
+ 40
+2.5
+  1
+Altura
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+ALTURA
+ 70
+0
+  0
+ATTRIB
+  5
+19A
+330
+198
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+773.524
+ 20
+647.6
+ 30
+0.0
+ 40
+2.5
+  1
+kgf
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+CARGA
+ 70
+0
+  0
+SEQEND
+  5
+19B
+330
+198
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+TEXT
+  5
+19C
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+636.25
+ 30
+0.0
+ 40
+2.5
+  1
+Transformador 1 Ø
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+19D
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_TRAFO_1F_EX
+ 10
+708.048
+ 20
+637.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+19E
+330
+19D
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+711.548
+ 20
+636.25
+ 30
+0.0
+ 40
+2.5
+  1
+kVA
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+KVA
+ 70
+0
+  0
+SEQEND
+  5
+19F
+330
+19D
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+INSERT
+  5
+1A0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_TRAFO_1F_PR
+ 10
+771.024
+ 20
+637.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+1A1
+330
+1A0
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+774.524
+ 20
+636.25
+ 30
+0.0
+ 40
+2.5
+  1
+kVA
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+KVA
+ 70
+0
+  0
+SEQEND
+  5
+1A2
+330
+1A0
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+TEXT
+  5
+1A3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+623.25
+ 30
+0.0
+ 40
+2.5
+  1
+Transformador 3 Ø 13,2 kV
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1A4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_TRAFO_3F_EX
+ 10
+708.048
+ 20
+624.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+1A5
+330
+1A4
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+711.548
+ 20
+623.25
+ 30
+0.0
+ 40
+2.5
+  1
+kVA
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+KVA
+ 70
+0
+  0
+SEQEND
+  5
+1A6
+330
+1A4
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+INSERT
+  5
+1A7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_TRAFO_3F_PR
+ 10
+771.024
+ 20
+624.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+1A8
+330
+1A7
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+774.524
+ 20
+623.25
+ 30
+0.0
+ 40
+2.5
+  1
+kVA
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+KVA
+ 70
+0
+  0
+SEQEND
+  5
+1A9
+330
+1A7
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+TEXT
+  5
+1AA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+610.25
+ 30
+0.0
+ 40
+2.5
+  1
+Línea primaria aérea desnuda
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1AB
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_MT_DESNUDA_EX
+ 10
+704.048
+ 20
+611.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+INSERT
+  5
+1AC
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_MT_DESNUDA_PR
+ 10
+767.024
+ 20
+611.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+TEXT
+  5
+1AD
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+597.25
+ 30
+0.0
+ 40
+2.5
+  1
+Cable cubierto primario
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1AE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_MT_CUBIERTO_EX
+ 10
+704.048
+ 20
+598.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+INSERT
+  5
+1AF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_MT_CUBIERTO_PR
+ 10
+767.024
+ 20
+598.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+TEXT
+  5
+1B0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+584.25
+ 30
+0.0
+ 40
+2.5
+  1
+Línea secundaria trenzada
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1B1
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_BT_TRENZADA_EX
+ 10
+704.048
+ 20
+585.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+INSERT
+  5
+1B2
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_BT_TRENZADA_PR
+ 10
+767.024
+ 20
+585.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+TEXT
+  5
+1B3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+571.25
+ 30
+0.0
+ 40
+2.5
+  1
+Secundario subterráneo
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1B4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_BT_SUBTERRANEO_EX
+ 10
+704.048
+ 20
+572.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+INSERT
+  5
+1B5
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RED_BT_SUBTERRANEO_PR
+ 10
+767.024
+ 20
+572.5
+ 30
+0.0
+ 41
+0.75
+ 42
+0.75
+ 43
+1.0
+  0
+TEXT
+  5
+1B6
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+558.25
+ 30
+0.0
+ 40
+2.5
+  1
+Bajante
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1B7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_BAJANTE_EX
+ 10
+708.048
+ 20
+559.5
+ 30
+0.0
+  0
+INSERT
+  5
+1B8
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_BAJANTE_PR
+ 10
+771.024
+ 20
+559.5
+ 30
+0.0
+  0
+TEXT
+  5
+1B9
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+545.25
+ 30
+0.0
+ 40
+2.5
+  1
+Caja de inspección
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1BA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_CAJA_DISTRIBUCION_EX
+ 10
+708.048
+ 20
+546.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+1BB
+330
+1BA
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+711.048
+ 20
+545.25
+ 30
+0.0
+ 40
+2.5
+  1
+RS3
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+TIPO
+ 70
+0
+  0
+SEQEND
+  5
+1BC
+330
+1BA
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+INSERT
+  5
+1BD
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+ 66
+1
+  2
+EPM_CAJA_DISTRIBUCION_PR
+ 10
+771.024
+ 20
+546.5
+ 30
+0.0
+  0
+ATTRIB
+  5
+1BE
+330
+1BD
+100
+AcDbEntity
+ 67
+1
+  8
+0
+ 62
+0
+100
+AcDbText
+ 10
+774.024
+ 20
+545.25
+ 30
+0.0
+ 40
+2.5
+  1
+RS3
+  7
+Standard
+100
+AcDbAttribute
+280
+0
+  2
+TIPO
+ 70
+0
+  0
+SEQEND
+  5
+1BF
+330
+1BD
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+  0
+TEXT
+  5
+1C0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+532.25
+ 30
+0.0
+ 40
+2.5
+  1
+Cortacircuito con fusible
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1C1
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_CORTACIRCUITO_EX
+ 10
+708.048
+ 20
+533.5
+ 30
+0.0
+  0
+INSERT
+  5
+1C2
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_CORTACIRCUITO_PR
+ 10
+771.024
+ 20
+533.5
+ 30
+0.0
+  0
+TEXT
+  5
+1C3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+519.25
+ 30
+0.0
+ 40
+2.5
+  1
+DPS
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1C4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_DPS_EX
+ 10
+708.048
+ 20
+520.5
+ 30
+0.0
+  0
+INSERT
+  5
+1C5
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_DPS_PR
+ 10
+771.024
+ 20
+520.5
+ 30
+0.0
+  0
+TEXT
+  5
+1C6
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+506.25
+ 30
+0.0
+ 40
+2.5
+  1
+Gabinete de medida
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1C7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_GABINETE_MEDIDA_EX
+ 10
+708.048
+ 20
+507.5
+ 30
+0.0
+  0
+INSERT
+  5
+1C8
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_GABINETE_MEDIDA_PR
+ 10
+771.024
+ 20
+507.5
+ 30
+0.0
+  0
+TEXT
+  5
+1C9
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+493.25
+ 30
+0.0
+ 40
+2.5
+  1
+Puesta a tierra
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1CA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_PUESTA_TIERRA
+ 10
+708.048
+ 20
+494.5
+ 30
+0.0
+  0
+TEXT
+  5
+1CB
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+771.024
+ 20
+493.25
+ 30
+0.0
+ 40
+2.5
+  1
+(igual)
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1CC
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+480.25
+ 30
+0.0
+ 40
+2.5
+  1
+Punto de conexión «A»
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1CD
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_PUNTO_A
+ 10
+708.048
+ 20
+481.5
+ 30
+0.0
+  0
+TEXT
+  5
+1CE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+771.024
+ 20
+480.25
+ 30
+0.0
+ 40
+2.5
+  1
+(igual)
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1CF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+467.25
+ 30
+0.0
+ 40
+2.5
+  1
+Retirar
+  7
+Standard
+100
+AcDbText
+  0
+INSERT
+  5
+1D0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbBlockReference
+  2
+EPM_RETIRAR
+ 10
+708.048
+ 20
+468.5
+ 30
+0.0
+  0
+TEXT
+  5
+1D1
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+771.024
+ 20
+467.25
+ 30
+0.0
+ 40
+2.5
+  1
+(igual)
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1D2
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-CONVENCIONES
+100
+AcDbText
+ 10
+570.6
+ 20
+301.54
+ 30
+0.0
+ 40
+2.5
+  1
+Símbolos según NC-RA8-001 Anexo A (biblioteca Domoplano)
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1D3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+521.4
+ 20
+283.04
+ 30
+0.0
+ 40
+2.5
+  1
+TIPO DE CARGA: (?) (residencial y estrato, comercial o industrial)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1D4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+521.4
+ 20
+230.04
+ 10
+827.0
+ 20
+230.04
+ 10
+827.0
+ 20
+279.04
+ 10
+521.4
+ 20
+279.04
+  0
+LINE
+  5
+1D5
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+272.04
+ 30
+0.0
+ 11
+827.0
+ 21
+272.04
+ 31
+0.0
+  0
+LINE
+  5
+1D6
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+265.04
+ 30
+0.0
+ 11
+827.0
+ 21
+265.04
+ 31
+0.0
+  0
+LINE
+  5
+1D7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+258.04
+ 30
+0.0
+ 11
+827.0
+ 21
+258.04
+ 31
+0.0
+  0
+LINE
+  5
+1D8
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+251.04
+ 30
+0.0
+ 11
+827.0
+ 21
+251.04
+ 31
+0.0
+  0
+LINE
+  5
+1D9
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+244.04
+ 30
+0.0
+ 11
+827.0
+ 21
+244.04
+ 31
+0.0
+  0
+LINE
+  5
+1DA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+521.4
+ 20
+237.04
+ 30
+0.0
+ 11
+827.0
+ 21
+237.04
+ 31
+0.0
+  0
+TEXT
+  5
+1DB
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+522.6
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+INSTALACIÓN
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+1DC
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+606.968
+ 20
+279.04
+ 30
+0.0
+ 11
+606.968
+ 21
+230.04
+ 31
+0.0
+  0
+TEXT
+  5
+1DD
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+608.168
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+P. INST. kVA
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+1DE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+652.808
+ 20
+279.04
+ 30
+0.0
+ 11
+652.808
+ 21
+230.04
+ 31
+0.0
+  0
+TEXT
+  5
+1DF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+654.008
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+DEM. kVA
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+1E0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+695.592
+ 20
+279.04
+ 30
+0.0
+ 11
+695.592
+ 21
+230.04
+ 31
+0.0
+  0
+TEXT
+  5
+1E1
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+696.792
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+TRAFO kVA
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+1E2
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+741.432
+ 20
+279.04
+ 30
+0.0
+ 11
+741.432
+ 21
+230.04
+ 31
+0.0
+  0
+TEXT
+  5
+1E3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+742.632
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+% CARGA
+  7
+Standard
+100
+AcDbText
+  0
+LINE
+  5
+1E4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbLine
+ 10
+781.16
+ 20
+279.04
+ 30
+0.0
+ 11
+781.16
+ 21
+230.04
+ 31
+0.0
+  0
+TEXT
+  5
+1E5
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+782.36
+ 20
+274.24
+ 30
+0.0
+ 40
+2.5
+  1
+% REG.
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1E6
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TABLAS
+100
+AcDbText
+ 10
+522.6
+ 20
+232.24
+ 30
+0.0
+ 40
+2.5
+  1
+TOTAL
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1E7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+423.0
+ 30
+0.0
+ 40
+2.5
+  1
+Notas del Anexo B (NC-RA8-001) y de la carta de factibilidad:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1E8
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-TEXTO
+100
+AcDbText
+ 10
+833.0
+ 20
+418.0
+ 30
+0.0
+ 40
+2.5
+  1
+1. (?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1E9
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+10.0
+ 10
+990.0
+ 20
+10.0
+ 10
+990.0
+ 20
+110.0
+ 10
+830.0
+ 20
+110.0
+  0
+LWPOLYLINE
+  5
+1EA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+95.0
+ 10
+990.0
+ 20
+95.0
+ 10
+990.0
+ 20
+110.0
+ 10
+830.0
+ 20
+110.0
+  0
+TEXT
+  5
+1EB
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+105.5
+ 30
+0.0
+ 40
+2.0
+  1
+PROYECTO:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1EC
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+102.0
+ 30
+0.0
+ 40
+2.5
+  1
+(?) NOMBRE DEL PROYECTO
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+102.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+1ED
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+97.3
+ 30
+0.0
+ 40
+2.0
+  1
+(?) DIRECCIÓN - (?) MUNICIPIO
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+97.3
+ 31
+0.0
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1EE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+80.0
+ 10
+990.0
+ 20
+80.0
+ 10
+990.0
+ 20
+95.0
+ 10
+830.0
+ 20
+95.0
+  0
+TEXT
+  5
+1EF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+90.5
+ 30
+0.0
+ 40
+2.0
+  1
+FIRMA QUE DISEÑA Y PRESENTA:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1F0
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+87.0
+ 30
+0.0
+ 40
+2.5
+  1
+(?) NOMBRE
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+87.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+1F1
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+82.3
+ 30
+0.0
+ 40
+2.0
+  1
+(?) DIRECCIÓN - CONTACTO - E-MAIL - NIT/CC
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+82.3
+ 31
+0.0
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1F2
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+65.0
+ 10
+990.0
+ 20
+65.0
+ 10
+990.0
+ 20
+80.0
+ 10
+830.0
+ 20
+80.0
+  0
+TEXT
+  5
+1F3
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+75.5
+ 30
+0.0
+ 40
+2.0
+  1
+PROPIETARIO O USUARIO:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1F4
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+72.0
+ 30
+0.0
+ 40
+2.5
+  1
+(?) NOMBRE
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+72.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+1F5
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+910.0
+ 20
+67.3
+ 30
+0.0
+ 40
+2.0
+  1
+(?) DIRECCIÓN - CONTACTO - E-MAIL - NIT/CC
+  7
+Standard
+ 72
+1
+ 11
+910.0
+ 21
+67.3
+ 31
+0.0
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1F6
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+57.0
+ 10
+910.0
+ 20
+57.0
+ 10
+910.0
+ 20
+65.0
+ 10
+830.0
+ 20
+65.0
+  0
+TEXT
+  5
+1F7
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+62.0
+ 30
+0.0
+ 40
+2.0
+  1
+CONSECUTIVO DE IDENTIFICACIÓN:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1F8
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+58.3
+ 30
+0.0
+ 40
+2.5
+  1
+(?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1F9
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+41.0
+ 10
+910.0
+ 20
+41.0
+ 10
+910.0
+ 20
+57.0
+ 10
+830.0
+ 20
+57.0
+  0
+TEXT
+  5
+1FA
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+53.5
+ 30
+0.0
+ 40
+2.0
+  1
+CONTIENE:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1FB
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+48.5
+ 30
+0.0
+ 40
+2.5
+  1
+(?) TIPO DE PROYECTO (DR1 a DR11)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1FC
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+30.0
+ 10
+910.0
+ 20
+30.0
+ 10
+910.0
+ 20
+41.0
+ 10
+830.0
+ 20
+41.0
+  0
+TEXT
+  5
+1FD
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+37.5
+ 30
+0.0
+ 40
+2.0
+  1
+DISEÑÓ:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+1FE
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+32.3
+ 30
+0.0
+ 40
+2.5
+  1
+(?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+1FF
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+19.0
+ 10
+910.0
+ 20
+19.0
+ 10
+910.0
+ 20
+30.0
+ 10
+830.0
+ 20
+30.0
+  0
+TEXT
+  5
+200
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+26.5
+ 30
+0.0
+ 40
+2.0
+  1
+DIBUJÓ:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+201
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+21.3
+ 30
+0.0
+ 40
+2.5
+  1
+(?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+202
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+910.0
+ 20
+32.0
+ 10
+990.0
+ 20
+32.0
+ 10
+990.0
+ 20
+65.0
+ 10
+910.0
+ 20
+65.0
+  0
+TEXT
+  5
+203
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+912.0
+ 20
+61.5
+ 30
+0.0
+ 40
+2.0
+  1
+FIRMA:
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+204
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+910.0
+ 20
+19.0
+ 10
+970.0
+ 20
+19.0
+ 10
+970.0
+ 20
+32.0
+ 10
+910.0
+ 20
+32.0
+  0
+TEXT
+  5
+205
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+912.0
+ 20
+28.5
+ 30
+0.0
+ 40
+2.0
+  1
+MATRÍCULA PROFESIONAL:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+206
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+912.0
+ 20
+22.3
+ 30
+0.0
+ 40
+2.5
+  1
+(?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+207
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+970.0
+ 20
+10.0
+ 10
+990.0
+ 20
+10.0
+ 10
+990.0
+ 20
+32.0
+ 10
+970.0
+ 20
+32.0
+  0
+LINE
+  5
+208
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbLine
+ 10
+970.0
+ 20
+10.0
+ 30
+0.0
+ 11
+990.0
+ 21
+32.0
+ 31
+0.0
+  0
+TEXT
+  5
+209
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+972.0
+ 20
+24.5
+ 30
+0.0
+ 40
+3.5
+  1
+01
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+20A
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+988.0
+ 20
+13.0
+ 30
+0.0
+ 40
+3.5
+  1
+01
+  7
+Standard
+ 72
+2
+ 11
+988.0
+ 21
+13.0
+ 31
+0.0
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+20B
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+830.0
+ 20
+10.0
+ 10
+892.0
+ 20
+10.0
+ 10
+892.0
+ 20
+19.0
+ 10
+830.0
+ 20
+19.0
+  0
+TEXT
+  5
+20C
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+832.0
+ 20
+13.2
+ 30
+0.0
+ 40
+2.0
+  1
+SN:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+20D
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+839.0
+ 20
+13.2
+ 30
+0.0
+ 40
+2.2
+  1
+CAMPO DE EPM
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+20E
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+892.0
+ 20
+10.0
+ 10
+922.0
+ 20
+10.0
+ 10
+922.0
+ 20
+19.0
+ 10
+892.0
+ 20
+19.0
+  0
+TEXT
+  5
+20F
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+893.5
+ 20
+13.2
+ 30
+0.0
+ 40
+2.0
+  1
+ESCALA:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+210
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+906.5
+ 20
+13.2
+ 30
+0.0
+ 40
+2.2
+  1
+INDICADA
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+211
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+922.0
+ 20
+10.0
+ 10
+952.0
+ 20
+10.0
+ 10
+952.0
+ 20
+19.0
+ 10
+922.0
+ 20
+19.0
+  0
+TEXT
+  5
+212
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+923.5
+ 20
+13.2
+ 30
+0.0
+ 40
+2.0
+  1
+FECHA:
+  7
+Standard
+100
+AcDbText
+  0
+TEXT
+  5
+213
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbText
+ 10
+934.0
+ 20
+13.2
+ 30
+0.0
+ 40
+2.2
+  1
+(?)
+  7
+Standard
+100
+AcDbText
+  0
+LWPOLYLINE
+  5
+214
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+952.0
+ 20
+10.0
+ 10
+970.0
+ 20
+10.0
+ 10
+970.0
+ 20
+19.0
+ 10
+952.0
+ 20
+19.0
+  0
+CIRCLE
+  5
+215
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbCircle
+ 10
+956.8
+ 20
+14.5
+ 30
+0.0
+ 40
+2.6
+  0
+CIRCLE
+  5
+216
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbCircle
+ 10
+956.8
+ 20
+14.5
+ 30
+0.0
+ 40
+1.3
+  0
+LINE
+  5
+217
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbLine
+ 10
+953.4
+ 20
+14.5
+ 30
+0.0
+ 11
+960.2
+ 21
+14.5
+ 31
+0.0
+  0
+LINE
+  5
+218
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbLine
+ 10
+956.8
+ 20
+11.1
+ 30
+0.0
+ 11
+956.8
+ 21
+17.9
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+219
+330
+34
+100
+AcDbEntity
+ 67
+1
+  8
+EPM-ROTULO
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+961.0
+ 20
+13.2
+ 10
+966.4
+ 20
+11.9
+ 10
+966.4
+ 20
+17.1
+ 10
+961.0
+ 20
+15.8
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+29
+330
+0
+100
+AcDbDictionary
+281
+1
+  3
+ACAD_GROUP
+350
+2A
+  3
+ACAD_LAYOUT
+350
+2B
+  3
+ACAD_MLINESTYLE
+350
+2C
+  3
+ACAD_PLOTSETTINGS
+350
+2D
+  3
+ACAD_PLOTSTYLENAME
+350
+2E
+  0
+DICTIONARY
+  5
+2A
+330
+29
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+2B
+330
+29
+100
+AcDbDictionary
+281
+1
+  3
+Model
+350
+31
+  3
+PLANO 01 DE 01
+350
+32
+  0
+DICTIONARY
+  5
+2C
+330
+29
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+30
+  0
+DICTIONARY
+  5
+2D
+330
+29
+100
+AcDbDictionary
+281
+1
+  0
+ACDBDICTIONARYWDFLT
+  5
+2E
+330
+29
+100
+AcDbDictionary
+281
+1
+  3
+Normal
+350
+2F
+100
+AcDbDictionaryWithDefault
+340
+2F
+  0
+ACDBPLACEHOLDER
+  5
+2F
+330
+2E
+  0
+LAYOUT
+  5
+31
+330
+2B
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+EPM 1000 x 707 mm
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+1000.0
+ 45
+707.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+1024
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+monochrome.ctb
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+1
+ 71
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+1000.0
+ 21
+707.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+0.0
+ 24
+0.0
+ 34
+0.0
+ 15
+1000.0
+ 25
+707.0
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+33
+  0
+LAYOUT
+  5
+32
+330
+2B
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+EPM 1000 x 707 mm
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+1000.0
+ 45
+707.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+688
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+monochrome.ctb
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+PLANO 01 DE 01
+ 70
+1
+ 71
+1
+ 10
+0.0
+ 20
+0.0
+ 11
+1000.0
+ 21
+707.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+0.0
+ 24
+0.0
+ 34
+0.0
+ 15
+1000.0
+ 25
+707.0
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+34
+  0
+MLINESTYLE
+  5
+30
+330
+2C
+100
+AcDbMlineStyle
+  2
+Standard
+ 70
+0
+  3
+
+ 62
+256
+ 51
+90.0
+ 52
+90.0
+ 71
+2
+ 49
+0.5
+ 62
+256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+256
+  6
+BYLAYER
+  0
+ENDSEC
+  0
+EOF

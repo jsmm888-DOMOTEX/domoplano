@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Domoplano — render de DXF (plancha o Modelo) a PNG</title></head><body>
+<!-- Uso (lo llama tests/dwgtest.js con Chrome sin ventana):
+     render_dwg.html?dxf=<url>&plancha=NOMBRE&px=4&post=<url>        → plancha a px por mm (como render_dxf.html)
+     render_dwg.html?dxf=<url>&modelo=1&max=2400&post=<url>          → el Modelo ajustado a «max» píxeles (lado mayor)
+     Mismo motor de la app (Scene.render). Deja el PNG en #png (data URL) y lo envía por POST. -->
+<pre id="png">cargando</pre>
+<script src="../web/scene.js"></script>
+<script src="../web/aci.js"></script>
+<script src="../web/edit.js"></script>
+<script src="../web/dxf.js"></script>
+<script>
+(async () => {
+  const out = document.getElementById('png');
+  const q = new URLSearchParams(location.search);
+  try {
+    const url = q.get('dxf');
+    const bytes = new Uint8Array(await (await fetch(url)).arrayBuffer());
+    const doc = await DXF.open(bytes, { resolveURL: (f) => new URL(encodeURIComponent(String(f).split(/[\\/]/).pop()), new URL(url, location.href)).href });
+    let pa, px;
+    if (q.get('modelo')) {
+      pa = doc.pages[0];
+    } else {
+      const papers = doc.pages.filter((p) => p.title !== 'Modelo');
+      pa = q.get('plancha') ? papers.find((p) => p.title === q.get('plancha')) : papers[0];
+    }
+    const root = await pa.build();
+    const u = pa.unitMM || 1;
+    if (q.get('modelo')) { const max = parseFloat(q.get('max') || '2400'); px = max / Math.max(pa.width * u, pa.height * u); }
+    else px = parseFloat(q.get('px') || '4');
+    const c = document.createElement('canvas');
+    c.width = Math.max(1, Math.round(pa.width * u * px)); c.height = Math.max(1, Math.round(pa.height * u * px));
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, c.width, c.height);
+    ctx.setTransform(px * u, 0, 0, px * u, 0, 0);
+    Scene.render(ctx, root, [0, 0, pa.width, pa.height], px * u);
+    const data = c.toDataURL('image/png');
+    if (q.get('post')) await fetch(q.get('post'), { method: 'POST', body: data });
+    out.textContent = data;
+  } catch (e) { out.textContent = 'ERROR ' + (e && e.stack || e); if (q.get('post')) fetch(q.get('post'), { method: 'POST', body: out.textContent }); }
+})();
+</script>
+</body></html>

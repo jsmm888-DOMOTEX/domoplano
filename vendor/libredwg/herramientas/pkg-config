@@ -1,0 +1,6 @@
+#!/bin/sh
+# Sustituto mínimo de pkg-config (Domoplano, 29-10-2026). Solo para el configure de LibreDWG:
+# pasa la comprobación de versión y responde "paquete no existe" a todo lo demás
+# (pcre2 y libxml2 son opcionales; se compilan sin ellos).
+case "$1" in --atleast-pkgconfig-version|--version) echo 0.29.2; exit 0;; esac
+exit 1

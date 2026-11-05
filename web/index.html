@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domoplano</title>
+<style>
+  :root {
+    --bar: #1f2328; --bar2: #2a2f36; --line: #3a4049; --txt: #e6e8eb; --dim: #9aa3ad;
+    --accent: #4aa3ff; --canvas: #5a6068;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--canvas); color: var(--txt);
+    font: 13px -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; overflow: hidden; user-select: none; -webkit-user-select: none; }
+  #bar { position: fixed; top: 0; left: 0; right: 0; height: 42px; background: var(--bar); border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; gap: 6px; padding: 0 10px; z-index: 5; }
+  #bar .title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 32vw; margin-right: 6px; }
+  #bar .sp { flex: 1; }
+  button, select, input { font: inherit; color: var(--txt); background: var(--bar2); border: 1px solid var(--line); border-radius: 6px; height: 28px; padding: 0 10px; }
+  button { cursor: pointer; white-space: nowrap; }
+  button:hover { border-color: #56606b; }
+  button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button:disabled { opacity: .4; cursor: default; }
+  select { max-width: 260px; }
+  .grp { display: flex; gap: 4px; align-items: center; }
+  .sep { width: 1px; height: 22px; background: var(--line); margin: 0 4px; }
+  #scale { width: 74px; height: 28px; }
+  #stage { position: fixed; top: 42px; left: 0; right: 0; bottom: 24px; cursor: grab; }
+  #stage.drag { cursor: grabbing; }
+  #stage.measure { cursor: crosshair; }
+  canvas { display: block; width: 100%; height: 100%; }
+  #status { position: fixed; left: 0; right: 0; bottom: 0; height: 24px; background: var(--bar); border-top: 1px solid var(--line);
+    display: flex; gap: 18px; align-items: center; padding: 0 10px; color: var(--dim); font-size: 12px; font-variant-numeric: tabular-nums; }
+  #status b { color: var(--txt); font-weight: 500; }
+  #overlay { position: fixed; inset: 42px 0 24px 0; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 14px; text-align: center; pointer-events: none; }
+  #overlay.hide { display: none; }
+  #overlay .big { font-size: 20px; font-weight: 600; }
+  #overlay .small { color: #d7dbe0; max-width: 520px; line-height: 1.5; }
+  #overlay button { pointer-events: auto; height: 34px; padding: 0 18px; background: var(--accent); border-color: var(--accent); color: #fff; }
+  #overlay.err .big { color: #ffb4a8; }
+  .spinner { width: 34px; height: 34px; border: 3px solid rgba(255,255,255,.25); border-top-color: #fff; border-radius: 50%; animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #layers { position: fixed; top: 50px; right: 10px; width: 280px; max-height: calc(100% - 90px); overflow: auto; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px; z-index: 6; display: none; box-shadow: 0 8px 30px rgba(0,0,0,.4); }
+  #layers.show { display: block; }
+  #layers .hd { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+  #layers .hd button { height: 22px; padding: 0 8px; font-size: 12px; }
+  #layers label { display: flex; gap: 8px; align-items: center; padding: 3px 4px; border-radius: 4px; cursor: pointer; }
+  #layers label:hover { background: var(--bar2); }
+  #marks { position: fixed; top: 50px; right: 10px; width: 380px; max-height: calc(100% - 90px); display: none; flex-direction: column; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; z-index: 6; box-shadow: 0 8px 30px rgba(0,0,0,.45); }
+  #marks.show { display: flex; }
+  #marks .hd { display: flex; justify-content: space-between; align-items: center; gap: 6px; padding: 8px 8px 4px 10px; font-weight: 600; }
+  #marks .hd button { height: 24px; padding: 0 8px; font-size: 12px; }
+  #marks .msub { padding: 0 10px 6px; color: var(--dim); font-size: 12px; border-bottom: 1px solid var(--line); }
+  #mlist { overflow: auto; padding: 6px; }
+  .mi { display: flex; gap: 8px; padding: 7px 6px; border-radius: 6px; cursor: pointer; border: 1px solid transparent; }
+  .mi:hover { background: var(--bar2); }
+  .mi.sel { border-color: #ff9f0a; background: #3a2e1a; }
+  .mi .n { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; background: #ff9f0a; color: #111; font-weight: 700; font-size: 12px; display: flex; align-items: center; justify-content: center; }
+  .mi .tx { white-space: pre-wrap; font-size: 12.5px; line-height: 1.35; user-select: text; -webkit-user-select: text; }
+  .mi .ty { color: var(--dim); font-size: 11px; }
+  #tip { position: fixed; pointer-events: none; display: none; max-width: 460px; background: rgba(20,24,28,.96); color: #fff; border: 1px solid #ff9f0a;
+    padding: 8px 10px; border-radius: 6px; font-size: 12.5px; line-height: 1.35; white-space: pre-wrap; z-index: 8; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
+  #tip b { color: #ffb340; }
+  #drop { position: fixed; inset: 0; border: 4px dashed var(--accent); background: rgba(74,163,255,.12); display: none; z-index: 10; pointer-events: none; }
+  #drop.show { display: block; }
+  /* línea de comandos del editor (solo con DXF) */
+  #cmdbar { position: fixed; left: 0; right: 0; bottom: 24px; height: 76px; background: #171a1e; border-top: 1px solid var(--line); z-index: 5;
+    display: flex; flex-direction: column; padding: 4px 10px; gap: 3px; font: 12px ui-monospace, Menlo, monospace; }
+  #cHist { flex: 1; white-space: pre; overflow: hidden; color: var(--dim); line-height: 14px; display: flex; flex-direction: column; justify-content: flex-end; }
+  #cRow { display: flex; align-items: center; gap: 8px; }
+  #cPrompt { color: #ffb340; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 48%; flex: 0 1 auto; }
+  #cInput { flex: 1; min-width: 140px; height: 24px; background: #0f1215; border-color: #2f353d; font: 12px ui-monospace, Menlo, monospace; user-select: text; -webkit-user-select: text; }
+  #cRow button, #cRow select { height: 24px; font: 12px -apple-system, sans-serif; padding: 0 8px; }
+  #cRow select { max-width: 200px; }
+  body.editing #stage, body.editing #overlay { bottom: 100px; }
+  body.editing #stage { cursor: crosshair; }
+  #blocks { position: fixed; top: 50px; right: 10px; width: 330px; max-height: calc(100% - 170px); overflow: auto; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px; z-index: 6; display: none; box-shadow: 0 8px 30px rgba(0,0,0,.4); }
+  #blocks.show { display: block; }
+  #blocks .hd { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+  #blocks .hd button { height: 22px; padding: 0 8px; font-size: 12px; }
+  #blocks input { width: 100%; margin-bottom: 6px; height: 26px; user-select: text; -webkit-user-select: text; }
+  #bgrid, #sgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  #simbs, #verif { position: fixed; top: 50px; right: 10px; width: 330px; max-height: calc(100% - 170px); overflow: auto; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px; z-index: 30; display: none; box-shadow: 0 6px 24px rgba(0,0,0,.35); }
+  #verif { width: 380px; }
+  #simbs.show, #verif.show { display: block; }
+  #simbs .hd, #verif .hd { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+  #simbs .hd button, #verif .hd button { height: 22px; padding: 0 8px; font-size: 12px; }
+  #simbs input { width: 100%; margin-bottom: 6px; height: 26px; user-select: text; -webkit-user-select: text; }
+  #simbs .sfs { display: flex; gap: 4px; margin-bottom: 6px; } #simbs .sf { height: 22px; padding: 0 8px; font-size: 11.5px; } #simbs .sf.on { background: var(--accent); color: #fff; }
+  #vlist .vh { font-size: 11.5px; color: var(--dim); margin-bottom: 6px; }
+  #vlist .vi { font-size: 11.5px; padding: 4px 6px; border-radius: 5px; cursor: pointer; border-left: 3px solid #ff3b30; margin-bottom: 3px; }
+  #vlist .vi.vh2 { border-left-color: #ff9f0a; } #vlist .vi:hover { background: rgba(127,127,127,.15); } #vlist .vi.on { background: rgba(30,136,255,.22); }
+  .bk { background: #fff; border-radius: 6px; border: 2px solid transparent; cursor: pointer; padding: 3px; text-align: center; }
+  .bk:hover { border-color: var(--accent); }
+  .bk canvas { width: 88px; height: 64px; display: block; margin: 0 auto; }
+  .bk div { color: #222; font-size: 10.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #lman { position: fixed; top: 50px; right: 10px; width: min(720px, calc(100% - 20px)); max-height: calc(100% - 170px); overflow: auto; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px; z-index: 6; display: none; box-shadow: 0 8px 30px rgba(0,0,0,.4); }
+  #lman.show, #props.show { display: block; }
+  #lman .hd, #props .hd { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+  #lman .hd button, #props .hd button { height: 22px; padding: 0 8px; font-size: 12px; }
+  .lmtop { display: flex; gap: 6px; margin-bottom: 6px; } .lmtop input { flex: 1; user-select: text; -webkit-user-select: text; }
+  #lman table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  #lman th { text-align: left; color: var(--dim); font-weight: 500; padding: 2px 4px; position: sticky; top: 0; background: var(--bar); }
+  #lman td { padding: 2px 4px; border-top: 1px solid #2a2f36; white-space: nowrap; }
+  #lman td.nm { max-width: 220px; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
+  #lman tr.sel td { background: #233246; }
+  #lman select { height: 22px; font-size: 11.5px; padding: 0 4px; max-width: 120px; }
+  #lman .sw { display: inline-block; width: 10px; height: 10px; border: 1px solid #000; margin-right: 4px; vertical-align: middle; }
+  #props { position: fixed; top: 50px; right: 10px; width: 300px; max-height: calc(100% - 170px); overflow: auto; background: var(--bar); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px; z-index: 6; display: none; box-shadow: 0 8px 30px rgba(0,0,0,.4); }
+  .prow { display: flex; align-items: center; gap: 8px; margin: 4px 0; } .prow span { width: 108px; color: var(--dim); flex: 0 0 auto; }
+  .prow select, .prow input, .prow textarea { flex: 1; min-width: 0; }
+  .prow textarea { font: inherit; color: var(--txt); background: var(--bar2); border: 1px solid var(--line); border-radius: 6px; padding: 4px; resize: vertical; user-select: text; -webkit-user-select: text; }
+  .pnone { color: var(--dim); font-size: 12px; margin-bottom: 6px; }
+  /* H4: pestañas de planchas (abajo, como AutoCAD), menú de pestaña y paleta del rótulo */
+  #tabs { position: fixed; left: 0; right: 0; bottom: 24px; height: 26px; background: var(--bar); border-top: 1px solid var(--line); display: none; gap: 2px; align-items: flex-end; padding: 0 8px; z-index: 5; overflow-x: auto; overflow-y: hidden; }
+  body.hastabs #tabs { display: flex; }
+  #tabs .tab { height: 22px; border-radius: 6px 6px 0 0; border-bottom: none; padding: 0 12px; font-size: 12px; background: #23272d; color: var(--dim); flex: 0 0 auto; }
+  #tabs .tab.on { background: #f5f5f2; color: #111; border-color: #f5f5f2; font-weight: 600; }
+  #tabs .tab.vacia:not(.on) { font-style: italic; opacity: .75; }
+  #tabs .tab.mas { padding: 0 9px; font-weight: 700; }
+  body.hastabs #stage, body.hastabs #overlay { bottom: 50px; }
+  body.hastabs #cmdbar { bottom: 50px; }
+  body.hastabs.editing #stage, body.hastabs.editing #overlay { bottom: 126px; }
+  #tabmenu { position: fixed; display: none; background: var(--bar); border: 1px solid var(--line); border-radius: 8px; padding: 4px; z-index: 40; min-width: 190px; box-shadow: 0 8px 30px rgba(0,0,0,.45); }
+  #tabmenu.show { display: block; } #tabmenu .tmi { padding: 5px 10px; border-radius: 5px; cursor: pointer; } #tabmenu .tmi:hover { background: var(--accent); color: #fff; }
+  #rotulo { position: fixed; top: 50px; right: 10px; width: 420px; max-height: calc(100% - 180px); overflow: auto; background: var(--bar); border: 1px solid var(--line); border-radius: 8px; padding: 8px; z-index: 30; display: none; box-shadow: 0 8px 30px rgba(0,0,0,.4); }
+  #rotulo.show { display: block; } #rotulo .hd { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-weight: 600; }
+  #rotulo .hd button { height: 22px; padding: 0 8px; font-size: 12px; } #rotulo .prow span { width: 150px; } #rotulo .prow button { height: 24px; padding: 0 6px; font-size: 11px; }
+  #rInfo { color: var(--dim); font-size: 11.5px; margin-bottom: 6px; } .rpie { display: flex; gap: 6px; align-items: center; margin-top: 8px; } .rpie select { flex: 1; }
+  #mlabel { position: fixed; pointer-events: none; background: rgba(20,24,28,.92); color: #fff; padding: 4px 8px; border-radius: 5px; font-size: 12px; display: none; z-index: 4; white-space: nowrap; }
+  #cSnapM { padding-left: 4px; padding-right: 4px; margin-left: -2px; }
+  #cSnapPanel { display: none; position: fixed; bottom: 110px; left: 40%; z-index: 50; background: var(--bar); color: var(--txt); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+  #cSnapPanel label { display: block; white-space: nowrap; margin: 2px 0; }
+  #cSnapPanel div { margin-top: 6px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <button id="bNew" title="Plano nuevo en blanco: milímetros y una plancha (⌘N · NUEVO)">Nuevo</button>
+  <button id="bOpen" title="Abrir archivo (⌘O)">Abrir…</button>
+  <span class="title" id="fname">Domoplano</span>
+  <select id="sheet" title="Hoja (Re Pág / Av Pág)" style="display:none"></select>
+  <span class="sp"></span>
+  <div class="grp">
+    <button id="bFit" title="Ajustar a la ventana (F o doble clic)">Ajustar</button>
+    <button id="bOut" title="Alejar (−)">−</button>
+    <button id="bIn" title="Acercar (+)">+</button>
+  </div>
+  <span class="sep"></span>
+  <button id="bBg" title="Cambiar fondo (B)">Fondo: papel</button>
+  <button id="bLw" title="Mostrar u ocultar los grosores de línea en pantalla (como LWDISPLAY · comando GL · ⌘L). No cambia el archivo ni lo que sale en PDF/DWF.">Grosores</button>
+  <button id="bLayers" title="Capas (L)" style="display:none">Capas</button>
+  <button id="bMarks" title="Observaciones de EPM: lista (O) · mostrar/ocultar marcas (K)" style="display:none">Marcas EPM</button>
+  <span class="sep"></span>
+  <div class="grp">
+    <button id="bMeasure" title="Medir distancia (M) — clic en dos puntos; Esc para salir">Medir</button>
+    <span style="color:var(--dim)">Esc. 1:</span><input id="scale" type="number" min="0" step="any" placeholder="—" title="Escala del plano, p. ej. 500 para 1:500 (vacío = medir en el papel)">
+  </div>
+</div>
+<div id="stage"><canvas id="cv"></canvas></div>
+<div id="overlay">
+  <div class="big">Domoplano</div>
+  <div class="small">Abre un plano DXF, DWF o DWFx: arrástralo aquí o usa <b>Abrir…</b></div>
+  <div style="display:flex;gap:10px"><button id="bOpen2">Abrir archivo…</button><button id="bNew2" style="background:#2ea043;border-color:#2ea043">Plano nuevo</button></div>
+</div>
+<div id="layers"><div class="hd"><span>Capas</span><span><button id="lAll">Todas</button> <button id="lNone">Ninguna</button></span></div><div id="llist"></div></div>
+<div id="marks"><div class="hd"><span id="mTitle">Observaciones de EPM</span><span><button id="mCopy" title="Copiar el texto de todas las observaciones">Copiar todo</button> <button id="mToggle" title="Mostrar u ocultar las marcas sobre el plano (K)">Ocultar marcas</button> <button id="mClose" title="Cerrar la lista (O)">×</button></span></div><div class="msub" id="mSub"></div><div id="mlist"></div></div>
+<div id="blocks"><div class="hd"><span>Bloques del dibujo</span><button id="bkClose">×</button></div><input id="bkFind" placeholder="Buscar (poste, trafo, caja…)" autocomplete="off" spellcheck="false"><div id="bgrid"></div></div>
+<div id="simbs"><div class="hd"><span>Símbolos EPM (NC-RA8-001 Anexo A)</span><button id="sClose">×</button></div><input id="sFind" placeholder="Buscar (poste, trafo, caja, DPS, medidor…)" autocomplete="off" spellcheck="false">
+  <div class="sfs"><button class="sf on" data-f="todos">Todos</button><button class="sf" data-f="existente">Existente</button><button class="sf" data-f="proyectado">Proyectado</button></div><div id="sgrid"></div></div>
+<div id="verif"><div class="hd"><span>Verificador de textos montados</span><button id="vClose">×</button></div><div id="vlist"></div></div>
+<div id="lman"><div class="hd"><span>Administrador de capas</span><button id="lmClose">×</button></div>
+  <div class="lmtop"><input id="lmName" placeholder="Nombre de capa" autocomplete="off" spellcheck="false"><button id="lmNew" title="Crear capa con este nombre">Nueva</button><button id="lmRen" title="Renombrar la capa elegida (clic en su fila) con este nombre">Renombrar</button><select id="lmLt" title="Cargar un tipo de línea de Domoplano (TIPOLIN)"></select></div>
+  <table><thead><tr><th title="Actual">Act.</th><th>Nombre</th><th title="Activada (se ve)">Visible</th><th title="Inutilizada (congelada)">Inut.</th><th title="Bloqueada (no se puede designar)">Bloq.</th><th>Color</th><th>Tipo de línea</th><th>Grosor mm</th><th title="Sale al trazar (PDF/DWF)">Trazar</th></tr></thead><tbody id="lmRows"></tbody></table></div>
+<div id="props"><div class="hd"><span>Propiedades</span><button id="pClose">×</button></div><div id="pBody"></div></div>
+<div id="rotulo"><div class="hd"><span>Rótulo — llenar todos los campos</span><button id="rClose">×</button></div><div id="rInfo"></div><div id="rBody"></div>
+  <div class="rpie"><select id="rDonde"><option value="todas">Aplicar a todas las planchas</option><option value="esta">Solo a esta plancha</option></select><button id="rAplicar" class="on">Aplicar</button></div></div>
+<div id="tabmenu"></div>
+<div id="tabs"></div>
+<div id="tip"></div>
+<div id="drop"></div>
+<div id="mlabel"></div>
+<div id="cmdbar" style="display:none">
+  <div id="cHist"></div>
+  <div id="cRow">
+    <span id="cPrompt">Comando:</span>
+    <input id="cInput" autocomplete="off" spellcheck="false" placeholder="L línea · PL polilínea · C círculo · T texto · I bloque · M mover · CO copiar · RO girar · ES escala · S estirar · TR recortar · EX alargar · O desfase · E borrar · H deshacer">
+    <span style="color:var(--dim)">Capa</span><select id="cLayer" title="Capa donde se dibuja (CA)"></select>
+    <button id="cSnap" class="on" title="Referencia a objetos: punto final, medio, centro, cuadrante, inserción, intersección, perpendicular y tangente (F3)">Refent</button><button id="cSnapM" title="Escoger los modos de Refent (también: comando REFENT o RF)">▾</button><div id="cSnapPanel"></div>
+    <button id="cOrtho" title="Orto: solo horizontal o vertical (F8)">Orto</button>
+ <button id="cLman" title="Administrador de capas: crear, renombrar, actual, activar, inutilizar, bloquear, color, tipo, grosor, trazar (CA)">Capas…</button>
+    <button id="cProps" title="Propiedades de lo seleccionado: capa, color, tipo de línea, grosor (PR · ⌘1)">Propiedades</button>
+    <button id="cBlocks" title="Paleta de bloques y símbolos del dibujo (I = insertar)">Bloques</button>
+    <button id="cSimb" title="Biblioteca de símbolos EPM (comando EPM / INSERTARSIMBOLO)">Símbolos EPM</button>
+    <button id="cVerif" title="Revisar textos montados y alturas mínimas (comando VERIFICAR)">Verificar</button>
+    <button id="cCheck" title="Lista de chequeo NC-RA8-001 de la plancha (comando CHECKEPM)">Checklist EPM</button>
+    <button id="cComp" title="Comparar con otra versión del plano, DXF o DWF (comando COMPARAR)">Comparar</button>
+    <button id="cSave" title="Guardar el DXF (⌘S). Se guarda una copia .bak del original.">Guardar</button>
+  </div>
+</div>
+<div id="status">
+  <span id="sCoord">X: — Y: —</span>
+  <span id="sZoom">Zoom: —</span>
+  <span id="sPaper"></span>
+  <span class="sp" style="flex:1"></span>
+  <span id="sInfo"></span>
+</div>
+<input type="file" id="file" accept=".dxf,.dwf,.dwfx" style="display:none">
+<input type="file" id="fileImg" accept=".png,.jpg,.jpeg,image/png,image/jpeg" style="display:none">
+<script src="zip.js"></script>
+<script src="scene.js"></script>
+<script src="aci.js"></script>
+<script src="dxf.js"></script>
+<script src="edit.js"></script>
+<script src="documento.js"></script>
+<script src="geom.js"></script>
+<script src="dibujo.js"></script>
+<script src="dxf_generador.js"></script>
+<script src="simbolos_epm.js"></script>
+<script src="plantilla_epm.js"></script>
+<script src="verificador.js"></script>
+<script src="comparador.js"></script>
+<script src="checklist_epm.js"></script>
+<script src="grosores_capas.js"></script>
+<script src="planchas.js"></script>
+<script src="edicion_p2.js"></script>
+<script src="cad.js"></script>
+<script src="h6e_ui.js"></script>
+<script src="w2d.js"></script>
+<script src="dwfx.js"></script>
+<script src="dwf.js"></script>
+<script src="dwf_writer.js"></script>
+<script src="pdf_writer.js"></script>
+<script src="viewer.js"></script>
+<script src="mcp_puente.js"></script>
+<script src="dwg.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "domoplano",
+  "version": "1.0.0",
+  "description": "Autonomous AI Agent & Headless CAD Engine for Electrical Distribution Plans, RETIE / NTC 2050 Compliance, and EPM Validation (DXF, DWG, DWF, DWFx, PDF, MCP)",
+  "main": "mcp/server.js",
+  "bin": {
+    "domoplano": "cli/generar_epm.js",
+    "domoplano-mcp": "mcp/server.js",
+    "domoplano-validar": "cli/validar_epm.js",
+    "domoplano-verificar": "cli/verificar.js"
+  },
+  "scripts": {
+    "test": "node tests/geomtest.js && node tests/epmtest.js && node tests/h1test.js && node tests/h2test.js && node tests/h3test.js && node tests/h4test.js && node tests/h6abtest.js && node tests/h6etest.js && node tests/mcptest.js && node tests/valtest.js",
+    "test:all": "for t in tests/*test.js; do node \"$t\"; done",
+    "mcp": "node mcp/server.js",
+    "mac:build": "bash mac/build.sh"
+  },
+  "keywords": [
+    "cad",
+    "autocad",
+    "dxf",
+    "dwg",
+    "dwf",
+    "dwfx",
+    "epm",
+    "retie",
+    "ntc2050",
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "electrical-engineering",
+    "power-distribution"
+  ],
+  "author": "Ing. Sebastián Muñoz <domotexingenieria@gmail.com>",
+  "license": "MIT"
+}

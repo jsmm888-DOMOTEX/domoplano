@@ -1,0 +1,658 @@
+[
+ {
+  "bloque": "EPM_POSTE_CONCRETO_EX",
+  "id": "POSTE_CONCRETO",
+  "nombre": "Poste de concreto",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_CONCRETO_PR",
+  "id": "POSTE_CONCRETO",
+  "nombre": "Poste de concreto",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_METALICO_EX",
+  "id": "POSTE_METALICO",
+  "nombre": "Poste metálico monolítico",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_METALICO_PR",
+  "id": "POSTE_METALICO",
+  "nombre": "Poste metálico monolítico",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_METALICO_SECC_EX",
+  "id": "POSTE_METALICO_SECC",
+  "nombre": "Poste metálico seccionado",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_METALICO_SECC_PR",
+  "id": "POSTE_METALICO_SECC",
+  "nombre": "Poste metálico seccionado",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_MADERA_EX",
+  "id": "POSTE_MADERA",
+  "nombre": "Poste de madera",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_MADERA_PR",
+  "id": "POSTE_MADERA",
+  "nombre": "Poste de madera",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_FIBRA_EX",
+  "id": "POSTE_FIBRA",
+  "nombre": "Poste de fibra (PRFV) monolítico",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_FIBRA_PR",
+  "id": "POSTE_FIBRA",
+  "nombre": "Poste de fibra (PRFV) monolítico",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_FIBRA_SECC_EX",
+  "id": "POSTE_FIBRA_SECC",
+  "nombre": "Poste de fibra (PRFV) seccionado",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_POSTE_FIBRA_SECC_PR",
+  "id": "POSTE_FIBRA_SECC",
+  "nombre": "Poste de fibra (PRFV) seccionado",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_TORRECILLA_EX",
+  "id": "TORRECILLA",
+  "nombre": "Torrecilla",
+  "grupo": "Estructuras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_TORRECILLA_PR",
+  "id": "TORRECILLA",
+  "nombre": "Torrecilla",
+  "grupo": "Estructuras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_MARCA_1F",
+  "id": "MARCA_1F",
+  "nombre": "Marca: un conductor de fase",
+  "grupo": "Conductores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_MARCA_2F",
+  "id": "MARCA_2F",
+  "nombre": "Marca: dos conductores",
+  "grupo": "Conductores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_MARCA_3F",
+  "id": "MARCA_3F",
+  "nombre": "Marca: tres conductores",
+  "grupo": "Conductores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_MARCA_NEUTRO",
+  "id": "MARCA_NEUTRO",
+  "nombre": "Marca: conductor de neutro",
+  "grupo": "Conductores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_MARCA_TIERRA",
+  "id": "MARCA_TIERRA",
+  "nombre": "Marca: conductor de puesta a tierra",
+  "grupo": "Conductores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 52"
+ },
+ {
+  "bloque": "EPM_BAJANTE_EX",
+  "id": "BAJANTE",
+  "nombre": "Bajante",
+  "grupo": "Conductores",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_BAJANTE_PR",
+  "id": "BAJANTE",
+  "nombre": "Bajante",
+  "grupo": "Conductores",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_ACOMETIDA_PRIMARIA_EX",
+  "id": "ACOMETIDA_PRIMARIA",
+  "nombre": "Acometida primaria (voltaje, Nº de fases)",
+  "grupo": "Entradas y salidas",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_ACOMETIDA_PRIMARIA_PR",
+  "id": "ACOMETIDA_PRIMARIA",
+  "nombre": "Acometida primaria (voltaje, Nº de fases)",
+  "grupo": "Entradas y salidas",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_CUCHILLA_CERRADA_EX",
+  "id": "CUCHILLA_CERRADA",
+  "nombre": "Equipo de desconexión sin carga, cuchilla cerrada",
+  "grupo": "Seccionamiento",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_CUCHILLA_CERRADA_PR",
+  "id": "CUCHILLA_CERRADA",
+  "nombre": "Equipo de desconexión sin carga, cuchilla cerrada",
+  "grupo": "Seccionamiento",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_CUCHILLA_ABIERTA_EX",
+  "id": "CUCHILLA_ABIERTA",
+  "nombre": "Equipo de desconexión sin carga, cuchilla abierta",
+  "grupo": "Seccionamiento",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_CUCHILLA_ABIERTA_PR",
+  "id": "CUCHILLA_ABIERTA",
+  "nombre": "Equipo de desconexión sin carga, cuchilla abierta",
+  "grupo": "Seccionamiento",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_CORTACIRCUITO_EX",
+  "id": "CORTACIRCUITO",
+  "nombre": "Cortacircuito primario con fusible (cuchilla con elemento fusible)",
+  "grupo": "Seccionamiento",
+  "estado": "existente",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_CORTACIRCUITO_PR",
+  "id": "CORTACIRCUITO",
+  "nombre": "Cortacircuito primario con fusible (cuchilla con elemento fusible)",
+  "grupo": "Seccionamiento",
+  "estado": "proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_RECONECTADOR_EX",
+  "id": "RECONECTADOR",
+  "nombre": "Reconectador automático",
+  "grupo": "Seccionamiento",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_RECONECTADOR_PR",
+  "id": "RECONECTADOR",
+  "nombre": "Reconectador automático",
+  "grupo": "Seccionamiento",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 54"
+ },
+ {
+  "bloque": "EPM_INTERRUPTOR",
+  "id": "INTERRUPTOR",
+  "nombre": "Interruptor (indicar características)",
+  "grupo": "Seccionamiento",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 62"
+ },
+ {
+  "bloque": "EPM_INTERRUPTOR_POT_CERRADO",
+  "id": "INTERRUPTOR_POT_CERRADO",
+  "nombre": "Interruptor de potencia cerrado",
+  "grupo": "Seccionamiento",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 62"
+ },
+ {
+  "bloque": "EPM_INTERRUPTOR_POT_ABIERTO",
+  "id": "INTERRUPTOR_POT_ABIERTO",
+  "nombre": "Interruptor de potencia abierto",
+  "grupo": "Seccionamiento",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 62"
+ },
+ {
+  "bloque": "EPM_TRAFO_1F_EX",
+  "id": "TRAFO_1F",
+  "nombre": "Transformador 1 Ø, capacidad",
+  "grupo": "Transformadores",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_1F_PR",
+  "id": "TRAFO_1F",
+  "nombre": "Transformador 1 Ø, capacidad",
+  "grupo": "Transformadores",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_3F_EX",
+  "id": "TRAFO_3F",
+  "nombre": "Transformador 3 Ø 13,2 kV, capacidad",
+  "grupo": "Transformadores",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_3F_PR",
+  "id": "TRAFO_3F",
+  "nombre": "Transformador 3 Ø 13,2 kV, capacidad",
+  "grupo": "Transformadores",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_3F_44KV_EX",
+  "id": "TRAFO_3F_44KV",
+  "nombre": "Transformador 3 Ø 44 kV, capacidad",
+  "grupo": "Transformadores",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_3F_44KV_PR",
+  "id": "TRAFO_3F_44KV",
+  "nombre": "Transformador 3 Ø 44 kV, capacidad",
+  "grupo": "Transformadores",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 55"
+ },
+ {
+  "bloque": "EPM_TRAFO_BIDEVANADO",
+  "id": "TRAFO_BIDEVANADO",
+  "nombre": "Transformador de potencia bidevanado",
+  "grupo": "Transformadores",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_CAJA_DISTRIBUCION_EX",
+  "id": "CAJA_DISTRIBUCION",
+  "nombre": "Caja de distribución, alumbrado público o salida de circuito (caja de inspección)",
+  "grupo": "Cajas y cámaras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 56"
+ },
+ {
+  "bloque": "EPM_CAJA_DISTRIBUCION_PR",
+  "id": "CAJA_DISTRIBUCION",
+  "nombre": "Caja de distribución, alumbrado público o salida de circuito (caja de inspección)",
+  "grupo": "Cajas y cámaras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 56"
+ },
+ {
+  "bloque": "EPM_CAJA_EMPALME",
+  "id": "CAJA_EMPALME",
+  "nombre": "Caja de empalme",
+  "grupo": "Cajas y cámaras",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 56"
+ },
+ {
+  "bloque": "EPM_CAMARA_ACOMETIDA_EX",
+  "id": "CAMARA_ACOMETIDA",
+  "nombre": "Cámara de acometida primaria",
+  "grupo": "Cajas y cámaras",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 56"
+ },
+ {
+  "bloque": "EPM_CAMARA_ACOMETIDA_PR",
+  "id": "CAMARA_ACOMETIDA",
+  "nombre": "Cámara de acometida primaria",
+  "grupo": "Cajas y cámaras",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 56"
+ },
+ {
+  "bloque": "EPM_MEDIDOR_CEM",
+  "id": "MEDIDOR_CEM",
+  "nombre": "Medidor electrónico multifuncional (CEM)",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_MEDIDOR_C",
+  "id": "MEDIDOR_C",
+  "nombre": "Medidor electrónico de energía activa",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_MEDIDOR_CME",
+  "id": "MEDIDOR_CME",
+  "nombre": "Medidor electrónico multienergía (activa y reactiva)",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_MEDIDOR_DIRECTO",
+  "id": "MEDIDOR_DIRECTO",
+  "nombre": "Medida directa: medidor conectado sin TC",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_MEDIDOR_SEMIDIRECTO",
+  "id": "MEDIDOR_SEMIDIRECTO",
+  "nombre": "Medida semidirecta: TC en la fase + medidor",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_TC",
+  "id": "TC",
+  "nombre": "Transformador de corriente (relación, clase, VA)",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_TP",
+  "id": "TP",
+  "nombre": "Transformador de potencial (relación, clase, VA)",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_AMPERIMETRO",
+  "id": "AMPERIMETRO",
+  "nombre": "Amperímetro",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_VOLTIMETRO",
+  "id": "VOLTIMETRO",
+  "nombre": "Voltímetro",
+  "grupo": "Medida",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 59"
+ },
+ {
+  "bloque": "EPM_GABINETE_MEDIDA_EX",
+  "id": "GABINETE_MEDIDA",
+  "nombre": "Gabinete de medida y protección",
+  "grupo": "Medida",
+  "estado": "existente",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_GABINETE_MEDIDA_PR",
+  "id": "GABINETE_MEDIDA",
+  "nombre": "Gabinete de medida y protección",
+  "grupo": "Medida",
+  "estado": "proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_DPS_EX",
+  "id": "DPS",
+  "nombre": "DPS (descargador de sobretensiones)",
+  "grupo": "Varios",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_DPS_PR",
+  "id": "DPS",
+  "nombre": "DPS (descargador de sobretensiones)",
+  "grupo": "Varios",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_PUESTA_TIERRA",
+  "id": "PUESTA_TIERRA",
+  "nombre": "Puesta a tierra",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_ELECTRODO_TIERRA",
+  "id": "ELECTRODO_TIERRA",
+  "nombre": "Electrodo de puesta a tierra (vista vertical, RETIE / NC-RA6-010)",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_GENERADOR",
+  "id": "GENERADOR",
+  "nombre": "Planta de generación",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_CAPACITOR",
+  "id": "CAPACITOR",
+  "nombre": "Capacitores",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_RETIRAR",
+  "id": "RETIRAR",
+  "nombre": "Señal que indica retirar",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 61"
+ },
+ {
+  "bloque": "EPM_PUNTO_A",
+  "id": "PUNTO_A",
+  "nombre": "Punto de conexión «A» (derivación autorizada por EPM)",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_NORTE",
+  "id": "NORTE",
+  "nombre": "Norte geográfico (6.2.3.2: siempre en la localización)",
+  "grupo": "Varios",
+  "estado": "existente o proyectado",
+  "cita": "Convención propia (NC-RA8-001 6.2.3.6 permite agregarla)"
+ },
+ {
+  "bloque": "EPM_RED_MT_DESNUDA_EX",
+  "id": "RED_MT_DESNUDA",
+  "nombre": "Línea primaria aérea desnuda (MT)",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_DESNUDA_PR",
+  "id": "RED_MT_DESNUDA",
+  "nombre": "Línea primaria aérea desnuda (MT)",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_CUBIERTO_EX",
+  "id": "RED_MT_CUBIERTO",
+  "nombre": "Cable cubierto primario (MT semiaislado)",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_CUBIERTO_PR",
+  "id": "RED_MT_CUBIERTO",
+  "nombre": "Cable cubierto primario (MT semiaislado)",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_AISLADO_EX",
+  "id": "RED_MT_AISLADO",
+  "nombre": "Cable aéreo aislado primario",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_AISLADO_PR",
+  "id": "RED_MT_AISLADO",
+  "nombre": "Cable aéreo aislado primario",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_TRENZADA_EX",
+  "id": "RED_BT_TRENZADA",
+  "nombre": "Línea secundaria aérea trenzada (BT)",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_TRENZADA_PR",
+  "id": "RED_BT_TRENZADA",
+  "nombre": "Línea secundaria aérea trenzada (BT)",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_ABIERTA_EX",
+  "id": "RED_BT_ABIERTA",
+  "nombre": "Línea secundaria aérea abierta (BT)",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_ABIERTA_PR",
+  "id": "RED_BT_ABIERTA",
+  "nombre": "Línea secundaria aérea abierta (BT)",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_TRANSMISION_EX",
+  "id": "RED_TRANSMISION",
+  "nombre": "Cable de transmisión",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_TRANSMISION_PR",
+  "id": "RED_TRANSMISION",
+  "nombre": "Cable de transmisión",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_SUBTERRANEO_EX",
+  "id": "RED_MT_SUBTERRANEO",
+  "nombre": "Cable primario subterráneo",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_MT_SUBTERRANEO_PR",
+  "id": "RED_MT_SUBTERRANEO",
+  "nombre": "Cable primario subterráneo",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_SUBTERRANEO_EX",
+  "id": "RED_BT_SUBTERRANEO",
+  "nombre": "Conductor secundario subterráneo (acometida BT)",
+  "grupo": "Redes",
+  "estado": "existente",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ },
+ {
+  "bloque": "EPM_RED_BT_SUBTERRANEO_PR",
+  "id": "RED_BT_SUBTERRANEO",
+  "nombre": "Conductor secundario subterráneo (acometida BT)",
+  "grupo": "Redes",
+  "estado": "proyectado",
+  "cita": "NC-RA8-001 Anexo A, pág. 51"
+ }
+]
